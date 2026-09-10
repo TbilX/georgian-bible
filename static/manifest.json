@@ -1,0 +1,22 @@
+{
+  "name": "წმიდა წერილი",
+  "short_name": "ბიბლია",
+  "description": "ქართული ბიბლია - ძველი და ახალი ქართული თარგმანები პარალელურად",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0a0f",
+  "theme_color": "#d4a853",
+  "lang": "ka",
+  "dir": "ltr",
+  "categories": ["books", "religion", "education"],
+  "icons": [
+    {
+      "src": "/static/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

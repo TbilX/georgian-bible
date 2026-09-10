@@ -1,0 +1,3282 @@
+{
+  "total_english_roots": 242,
+  "total_apostrophe_patterns": 455,
+  "english_roots": [
+    [
+      "iii",
+      2006,
+      ".Elijah, under the juniper tree and in the cave 1Ki 19:4-15",
+      "ელია, ღვაილას ქვეშ ხე და მღვიმეში III მეფ 19:4-15"
+    ],
+    [
+      "arimathaea",
+      10,
+      "Allows Joseph of Arimathaea to take Jesus’ body Mt 27:57,58; Mr 15:43-45; Lu 23:52; Joh 19:38",
+      "უშვებს Arimathaeaის იოსები მიიღეს იესოს სხეული მათე 27:57,58; მარ 15:43-45; ლუკა 23:52; იოა 19:38"
+    ],
+    [
+      "pahath",
+      7,
+      "1. Son of Pahath-moab Ne 3:11",
+      "1. Pahathის ძე-მოაბი ნეე 3:11"
+    ],
+    [
+      "abram",
+      5,
+      "Herdmen of Abram and of Lot. — Ge 13:7.",
+      "Abramის მწყემსები ლოტის და. — დაბ 13:7."
+    ],
+    [
+      "abarim",
+      4,
+      "Nebo (part of Abarim). — Nu 32:3; De 34:1.",
+      "ნებო (Abarimის ნაწილი). — რიც 32:3; მრჟ 34:1."
+    ],
+    [
+      "chaldees",
+      4,
+      "Called beauty of Chaldees, &c. — Isa 13:19.",
+      "წოდებული Chaldeesის სილამაზე — ესა 13:19."
+    ],
+    [
+      "plenteous",
+      4,
+      "Plenteous. — Job 37:23.",
+      "Plenteousის - იობ 37:23."
+    ],
+    [
+      "fusible",
+      3,
+      "Fusible. — Ex 32:3,4; Pr 17:3.",
+      "Fusibleის - გამ 32:3,4; იგა 17:3."
+    ],
+    [
+      "fading",
+      3,
+      "Fading oaks — Isa 1:30.",
+      "მიfading მუხები — ესა 1:30."
+    ],
+    [
+      "crafty",
+      3,
+      "Crafty. — 2Co 4:2.",
+      "Craftyის - II კორ 4:2."
+    ],
+    [
+      "voracious",
+      3,
+      "Voracious. — Ex 10:15.",
+      "Voraciousის - გამ 10:15."
+    ],
+    [
+      "abominates",
+      3,
+      "Abominates. — Pr 17:15; 20:10.",
+      "Abominatesის - იგა 17:15; 20:10."
+    ],
+    [
+      "malleable",
+      3,
+      "Malleable. — Isa 2:4.",
+      "Malleableის - ესა 2:4."
+    ],
+    [
+      "lotan",
+      2,
+      "A son of Lotan Ge 36:22",
+      "Lotanის ძე დაბ 36:22"
+    ],
+    [
+      "fertilising",
+      2,
+      "Fertilising. — Eze 34:26,27; Ho 6:3; 10:12; 14:5.",
+      "Fertilisingის - ეზე 34:26,27; ოსი 6:3; 10:12; 14:5."
+    ],
+    [
+      "scorning",
+      2,
+      "Scorning. — Ho 7:5.",
+      "Scorningის - ოსი 7:5."
+    ],
+    [
+      "vex",
+      2,
+      "Vex. — Eze 22:7.",
+      "Vexის - ეზე 22:7."
+    ],
+    [
+      "shebna",
+      2,
+      "Shebna. — Isa 22:16.",
+      "Shebnaის - ესა 22:16."
+    ],
+    [
+      "naphthali",
+      2,
+      "3. A city of the territory of the tribe of Naphthali Jos 19:36",
+      "3. ქალაქი ტერიტორიას Naphthaliის ტომი იენ 19:36"
+    ],
+    [
+      "arimaa",
+      2,
+      "Arimathea. — Mt 27:57; Joh 19:38.",
+      "Arimaaის - მათე 27:57; იოა 19:38."
+    ],
+    [
+      "bethaven",
+      2,
+      "Calves of Bethaven. — Ho 10:5.",
+      "Bethavenის კვანჭები. — ოსი 10:5."
+    ],
+    [
+      "rushing",
+      2,
+      "Horses rushing into the battle — Jer 8:6.",
+      "ცხენები მოrushing ბრძოლაში — იერ 8:6."
+    ],
+    [
+      "populous",
+      2,
+      "Populous. — Jon 4:11.",
+      "Populousის - იონ 4:11."
+    ],
+    [
+      "multitudinous",
+      2,
+      "Multitudinous. — Jer 51:42.",
+      "Multitudinousის - იერ 51:42."
+    ],
+    [
+      "bethshemesh",
+      2,
+      "Men of Bethshemesh. — 1Sa 6:19.",
+      "Bethshemeshის კაცნი. — I მეფ 6:19."
+    ],
+    [
+      "constraining",
+      2,
+      "Constraining. — Ho 11:4.",
+      "Constrainingის - ოსი 11:4."
+    ],
+    [
+      "vindictive",
+      2,
+      "Vindictive. — Eze 25:12.",
+      "Vindictiveის - ეზე 25:12."
+    ],
+    [
+      "grecians",
+      2,
+      "Grecians. — Ac 6:1.",
+      "Greciansის - საქ 6:1."
+    ],
+    [
+      "punishes",
+      2,
+      "Punishes. — Isa 13:11; Am 3:2.",
+      "Punishesის - ესა 13:11; ამო 3:2."
+    ],
+    [
+      "ponds",
+      2,
+      "Ponds. — Song 7:4; Isa 19:10.",
+      "Pondsის - ქებ 7:4; ესა 19:10."
+    ],
+    [
+      "undeviating",
+      2,
+      "Undeviating. — Job 8:3; 34:12.",
+      "Undeviatingის - იობ 8:3; 34:12."
+    ],
+    [
+      "jer",
+      2,
+      "Patronymic of the family of Jether 2Sa 23:38; 1Ch 2:53",
+      "მამისეული Jerის ოჯახი II მეფ 23:38; I ნეშ 2:53"
+    ],
+    [
+      "arabs",
+      2,
+      "The Arabs. — Isa 13:20.",
+      "Arabsის - ესა 13:20."
+    ],
+    [
+      "everywhere",
+      2,
+      "Everywhere. — 1Ti 2:8.",
+      "Everywhereის - I ტიმ 2:8."
+    ],
+    [
+      "shemidah",
+      2,
+      "5. Son of Shemidah 1Ch 7:19",
+      "5. Shemidahის ძე I ნეშ 7:19"
+    ],
+    [
+      "jada",
+      2,
+      "3. A son of Jada 1Ch 2:32",
+      "3. Jadaის ძე I ნეშ 2:32"
+    ],
+    [
+      "milcom",
+      2,
+      "Idols of Milcom 2Ki 23:13",
+      "Milcomის კერპები IV მეფ 23:13"
+    ],
+    [
+      "jehonadab",
+      1,
+      "2. Father of Jehonadab 2Ki 10:15,23; 1Ch 2:55; Jer 35:6,8,16,19",
+      "2. Jehonadabის მამა IV მეფ 10:15,23; I ნეშ 2:55; იერ 35:6,8,16,19"
+    ],
+    [
+      "insatiable",
+      1,
+      "Insatiable. — Pr 30:16.",
+      "Insatiableის - იგა 30:16."
+    ],
+    [
+      "caphtorims",
+      1,
+      "The Caphtorims. — De 2:23.",
+      "Caphtorimsის - მრჟ 2:23."
+    ],
+    [
+      "observation",
+      1,
+      "Places of Observation. — Ex 33:21; Nu 23:9.",
+      "Observationის ადგილები. — გამ 33:21; რიც 23:9."
+    ],
+    [
+      "inflammation",
+      1,
+      "Inflammation. — De 28:22.",
+      "Inflammationის - მრჟ 28:22."
+    ],
+    [
+      "defaming",
+      1,
+      "Defaming. — Jer 20:10; 1Co 4:13.",
+      "Defamingის - იერ 20:10; I კორ 4:13."
+    ],
+    [
+      "lael",
+      1,
+      "2. Son of Lael Nu 3:24",
+      "2. Laelის ძე რიც 3:24"
+    ],
+    [
+      "quicksands",
+      1,
+      "Quicksands. — Ac 27:17.",
+      "Quicksandsის - საქ 27:17."
+    ],
+    [
+      "abiezrites",
+      1,
+      "1. Also called JEEZER, progenitor of the Abiezrites Nu 26:30; Jos 17:2; Jud 6:34; 8:2",
+      "1. ასევე წოდებული იეზერი, Abiezritesის წინაპარი რიც 26:30; იენ 17:2; იუდ 6:34; 8:2"
+    ],
+    [
+      "delusion",
+      1,
+      "Delusion. — Isa 66:4; 2Th 2:10,11.",
+      "Delusionის - ესა 66:4; II თეს 2:10,11."
+    ],
+    [
+      "traffickers",
+      1,
+      "Traffickers. — Isa 23:8.",
+      "Traffickersის - ესა 23:8."
+    ],
+    [
+      "overwhelm",
+      1,
+      "Overwhelm. — Job 6:27.",
+      "Overwhelmის - იობ 6:27."
+    ],
+    [
+      "bahurimite",
+      1,
+      ".The wife of the Bahurimite who saved the lives of Hushai’s messengers, sent to apprise David of the movements of Absalom’s army 2Sa 17:15-22",
+      "Bahurimiteის ცოლი ვინ ცხონებული ხუშაის ცხოვრება' მაცნეები, გაგზავნილი აცნობეს აბესალომის მოძრაობების დავითის ლაშქარი II "
+    ],
+    [
+      "lances",
+      1,
+      "Lances. — Jer 50:42.",
+      "Lancesის - იერ 50:42."
+    ],
+    [
+      "javelins",
+      1,
+      "Javelins. — Nu 25:7; 1Sa 18:10.",
+      "Javelinsის - რიც 25:7; I მეფ 18:10."
+    ],
+    [
+      "hagarenes",
+      1,
+      "Hagarenes. — Ps 83:6.",
+      "Hagarenesის - ფსა 83:6."
+    ],
+    [
+      "unsatisfying",
+      1,
+      "Unsatisfying. — Ec 4:8; 5:10.",
+      "Unsatisfyingის - ეკლ 4:8; 5:10."
+    ],
+    [
+      "unstable",
+      1,
+      "Unstable. — Ge 49:4.",
+      "Unstableის - დაბ 49:4."
+    ],
+    [
+      "machirites",
+      1,
+      ".Father of the Machirites Nu 26:29; 36:1",
+      "Machiritesის მამა რიც 26:29; 36:1"
+    ],
+    [
+      "imlah",
+      1,
+      "Micaiah the son of Imlah. — 1Ki 22:7,8.",
+      "მიქაია Imlahის ძე. — III მეფ 22:7,8."
+    ],
+    [
+      "regenerating",
+      1,
+      "Regenerating. — Jas 1:18; 1Pe 1:23.",
+      "Regeneratingის - იაკ 1:18; I პეტ 1:23."
+    ],
+    [
+      "stacking",
+      1,
+      "Stacking. — Ex 22:6.",
+      "Stackingის - გამ 22:6."
+    ],
+    [
+      "reapers",
+      1,
+      "Reapers. — Ru 2:4.",
+      "Reapersის - რუთ 2:4."
+    ],
+    [
+      "immediate",
+      1,
+      "Immediate. — Ho 10:12.",
+      "Immediateის - ოსი 10:12."
+    ],
+    [
+      "vales",
+      1,
+      "Vales. — De 1:7; Jos 10:40.",
+      "Valesის - მრჟ 1:7; იენ 10:40."
+    ],
+    [
+      "slaughtered",
+      1,
+      "Slaughtered. — Ps 79:1-7; Eze 35:5,6.",
+      "Slaughteredის - ფსა 79:1-7; ეზე 35:5,6."
+    ],
+    [
+      "fusibility",
+      1,
+      "Fusibility. — Eze 22:18,20.",
+      "Fusibilityის - ეზე 22:18,20."
+    ],
+    [
+      "perez",
+      1,
+      "7. A descendant of Perez Ne 11:4",
+      "7. Perezის შთამომავალი ნეე 11:4"
+    ],
+    [
+      "parthia",
+      1,
+      "The inhabitants of Parthia, a country northwest of Persia Ac 2:9",
+      "Parthiaის მცხოვრებნი, ქვეყანა სპარსეთის ჩრდილო-დასავლეთი საქ 2:9"
+    ],
+    [
+      "distrustful",
+      1,
+      "Distrustful of God. — Nu 14:11; Ps 78:22.",
+      "ღმერთის Distrustfulის - რიც 14:11; ფსა 78:22."
+    ],
+    [
+      "grisled",
+      1,
+      "Grisled. — Zec 6:3,6.",
+      "Grisledის - ზაქ 6:3,6."
+    ],
+    [
+      "joktanites",
+      1,
+      "3. A place in possession of the Joktanites Ge 10:30",
+      "3. ადგილი ში Joktanitesის ქონება დაბ 10:30"
+    ],
+    [
+      "anakims",
+      1,
+      "The children of the Anakims. — De 9:2.",
+      "Anakimsის შვილები. — მრჟ 9:2."
+    ],
+    [
+      "beerlahairoi",
+      1,
+      "Beerlahairoi. — Ge 16:14.",
+      "Beerlahairoiის - დაბ 16:14."
+    ],
+    [
+      "compact",
+      1,
+      "Compact. — Ps 122:3.",
+      "Compactის - ფსა 122:3."
+    ],
+    [
+      "shephaniah",
+      1,
+      "7. Son of Shephaniah Ezr 8:8",
+      "7. Shephaniahის ძე ეზრ 8:8"
+    ],
+    [
+      "crocodiles",
+      1,
+      "Crocodiles. — Eze 29:3.",
+      "Crocodilesის - ეზე 29:3."
+    ],
+    [
+      "askelon",
+      1,
+      "Slew thirty, near Askelon. — Jdj 14:19.",
+      "მოკლა ოცდაათი, ახლოს Askelonის - მსა 14:19."
+    ],
+    [
+      "fitches",
+      1,
+      "Fitches. — Isa 28:25,27.",
+      "Fitchesის - ესა 28:25,27."
+    ],
+    [
+      "improvident",
+      1,
+      "Improvident. — Lu 12:24.",
+      "Improvidentის - ლუკა 12:24."
+    ],
+    [
+      "depopulated",
+      1,
+      "Depopulated. — Isa 17:9; Eze 26:19.",
+      "Depopulatedის - ესა 17:9; ეზე 26:19."
+    ],
+    [
+      "disinterestedness",
+      1,
+      "Disinterestedness. — Job 1:9-12.",
+      "Disinterestednessის - იობ 1:9-12."
+    ],
+    [
+      "nun",
+      1,
+      ".Son of Nun Nu 13:8; 1Ch 7:27",
+      "Nunის ძე რიც 13:8; I ნეშ 7:27"
+    ],
+    [
+      "inexperience",
+      1,
+      "Inexperience. — 1Ti 3:6.",
+      "Inexperienceის - I ტიმ 3:6."
+    ],
+    [
+      "enchanters",
+      1,
+      "Enchanters. — De 18:10; Jer 27:9.",
+      "Enchantersის - მრჟ 18:10; იერ 27:9."
+    ],
+    [
+      "massacred",
+      1,
+      "Massacred. — 1Sa 15:4-8.",
+      "Massacredის - I მეფ 15:4-8."
+    ],
+    [
+      "relieves",
+      1,
+      "Relieves. — Ps 146:9.",
+      "Relievesის - ფსა 146:9."
+    ],
+    [
+      "censorious",
+      1,
+      "Censorious. — Mt 7:3-5; Lu 13:14,15.",
+      "Censoriousის - მათე 7:3-5; ლუკა 13:14,15."
+    ],
+    [
+      "jeshaiah",
+      1,
+      "3. Father of Jeshaiah Ezr 8:7",
+      "3. Jeshaiahის მამა ეზრ 8:7"
+    ],
+    [
+      "helpless",
+      1,
+      "Helpless. — Jer 10:5.",
+      "Helplessის - იერ 10:5."
+    ],
+    [
+      "overturns",
+      1,
+      "Overturns. — Job 9:5; 28:9.",
+      "Overturnsის - იობ 9:5; 28:9."
+    ],
+    [
+      "cucumbers",
+      1,
+      "Cucumbers. — Isa 1:8.",
+      "Cucumbersის - ესა 1:8."
+    ],
+    [
+      "onions",
+      1,
+      "Onions. — Nu 11:5.",
+      "Onionsის - რიც 11:5."
+    ],
+    [
+      "teil",
+      1,
+      "Teil. — Isa 6:13.",
+      "Teilის - ესა 6:13."
+    ],
+    [
+      "speckled",
+      1,
+      "Speckled. — Zec 1:8.",
+      "Speckledის - ზაქ 1:8."
+    ],
+    [
+      "jehaziel",
+      1,
+      "5. A Levite, ancestor of Jehaziel, who encouraged Judah against their enemies 2Ch 20:14",
+      "5. ლევიანი, Jehazielის წინაპარი, ვინ წასაგებული იუდა მათის მტრები II ნეშ 20:14"
+    ],
+    [
+      "aloe",
+      1,
+      "Aloe. — Song 4:14.",
+      "Aloeის - ქებ 4:14."
+    ],
+    [
+      "conies",
+      1,
+      "Conies. — Ps 104:18; Pr 30:26.",
+      "Coniesის - ფსა 104:18; იგა 30:26."
+    ],
+    [
+      "zerubabbel",
+      1,
+      "Son of Zerubabbel 1Ch 3:20",
+      "Zerubabbelის ძე I ნეშ 3:20"
+    ],
+    [
+      "whispering",
+      1,
+      "Whispering. — Ro 1:29; 2Co 12:20.",
+      "Whisperingის - რომ 1:29; II კორ 12:20."
+    ],
+    [
+      "quarrelsomeness",
+      1,
+      "Quarrelsomeness. — Ge 13:7; 26:20.",
+      "Quarrelsomenessის - დაბ 13:7; 26:20."
+    ],
+    [
+      "succothbenoth",
+      1,
+      "Succothbenoth. — 2Ki 17:30.",
+      "Succothbenothის - IV მეფ 17:30."
+    ],
+    [
+      "iplom",
+      1,
+      "Tactful Abigail 1Sa 25:3,14-42",
+      "დiplomატიური აბიგაილი I მეფ 25:3,14-42"
+    ],
+    [
+      "alphaeus",
+      1,
+      ".Son of Alphaeus Mt 10:3; Mr 3:18; Lu 6:15; Ac 1:13; 12:17",
+      "Alphaeusის ძე მათე 10:3; მარ 3:18; ლუკა 6:15; საქ 1:13; 12:17"
+    ],
+    [
+      "ransoming",
+      1,
+      "Ransoming. — Ex 30:15,16; Job 33:24.",
+      "Ransomingის - გამ 30:15,16; იობ 33:24."
+    ],
+    [
+      "perpetrate",
+      1,
+      "Perpetrate. — Job 24:14; Eze 22:3.",
+      "Perpetrateის - იობ 24:14; ეზე 22:3."
+    ],
+    [
+      "trading",
+      1,
+      "Trading. — 1Ki 22:48; 2Ch 8:18; 9:21.",
+      "Tradingის - III მეფ 22:48; II ნეშ 8:18; 9:21."
+    ],
+    [
+      "timous",
+      1,
+      "Timotheus. — Ac 16:3.",
+      "Timousის - საქ 16:3."
+    ],
+    [
+      "bathing",
+      1,
+      "Bathing. — Ex 2:5.",
+      "Bathingის - გამ 2:5."
+    ],
+    [
+      "vanities",
+      1,
+      "Vanities of the Gentiles. — Jer 14:22.",
+      "წარმართების Vanitiesის - იერ 14:22."
+    ],
+    [
+      "playful",
+      1,
+      "Playful. — Ps 114:4,6.",
+      "Playfulის - ფსა 114:4,6."
+    ],
+    [
+      "disquiet",
+      1,
+      "Disquiet. — Ps 38:3.",
+      "Disquietის - ფსა 38:3."
+    ],
+    [
+      "hamongog",
+      1,
+      "Passengers or Hamongog. — Eze 39:11.",
+      "მგზავრები ან Hamongogის - ეზე 39:11."
+    ],
+    [
+      "helmets",
+      1,
+      "Helmets. — 1Sa 17:5.",
+      "Helmetsის - I მეფ 17:5."
+    ],
+    [
+      "cheerfully",
+      1,
+      "Cheerfully. — 2Co 8:12; 9:7.",
+      "Cheerfullyის - II კორ 8:12; 9:7."
+    ],
+    [
+      "rye",
+      1,
+      "Rye. — Ex 9:32.",
+      "Ryeის - გამ 9:32."
+    ],
+    [
+      "industriously",
+      1,
+      "Industriously. — Eph 4:28; 1Th 4:11.",
+      "Industriouslyის - ეფე 4:28; I თეს 4:11."
+    ],
+    [
+      "silvanus",
+      1,
+      "Silvanus. — 1Pe 5:12.",
+      "Silvanusის - I პეტ 5:12."
+    ],
+    [
+      "penetrating",
+      1,
+      "Penetrating. — Ps 109:18.",
+      "Penetratingის - ფსა 109:18."
+    ],
+    [
+      "burnished",
+      1,
+      "Burnished. — Jer 46:4; Eze 21:9-11,28.",
+      "Burnishedის - იერ 46:4; ეზე 21:9-11,28."
+    ],
+    [
+      "boxes",
+      1,
+      "Boxes. — 2Ki 9:1.",
+      "Boxesის - IV მეფ 9:1."
+    ],
+    [
+      "shemalah",
+      1,
+      "1. Son of Shemalah 1Ch 3:22,23",
+      "1. Shemalahის ძე I ნეშ 3:22,23"
+    ],
+    [
+      "abased",
+      1,
+      "Abased. — Da 4:37; Mt 23:12.",
+      "Abasedის - დან 4:37; მათე 23:12."
+    ],
+    [
+      "uninterrupted",
+      1,
+      "Uninterrupted. — Ps 121:3.",
+      "Uninterruptedის - ფსა 121:3."
+    ],
+    [
+      "zerak",
+      1,
+      "2. Son of Zerak 1Ch 2:6,8",
+      "2. Zerakის ძე I ნეშ 2:6,8"
+    ],
+    [
+      "necromancers",
+      1,
+      "Necromancers. — De 18:11.",
+      "Necromancersის - მრჟ 18:11."
+    ],
+    [
+      "hystaspes",
+      1,
+      "Darius Hystaspes. — Ezr 6:1; Da 5:31.",
+      "დარიოსი Hystaspesის - ეზრ 6:1; დან 5:31."
+    ],
+    [
+      "zerephath",
+      1,
+      ".To the widow of Zerephath 1Ki 17:12-16",
+      "მიმართ Zerephathის ქვრივი III მეფ 17:12-16"
+    ],
+    [
+      "preciousness",
+      1,
+      "Preciousness of Christ. — Isa 28:16; 1Pe 2:6.",
+      "ქრისტეის Preciousnessის - ესა 28:16; I პეტ 2:6."
+    ],
+    [
+      "labai",
+      1,
+      "2. Son of Labai Ne 3:20; 10:6",
+      "2. Labaiის ძე ნეე 3:20; 10:6"
+    ],
+    [
+      "feeling",
+      1,
+      "Feeling. — Ps 115:7; 1Jo 1:1.",
+      "Feelingის - ფსა 115:7; I იოა 1:1."
+    ],
+    [
+      "heel",
+      1,
+      "Heel. — Ps 41:9; 49:5; Ho 12:3.",
+      "Heelის - ფსა 41:9; 49:5; ოსი 12:3."
+    ],
+    [
+      "spotted",
+      1,
+      "Spotted. — Jer 13:23.",
+      "Spottedის - იერ 13:23."
+    ],
+    [
+      "macedonians",
+      1,
+      "Its second destruction by the Macedonians. — Eze 27:32; 28:7,8,18; Zec 9:2-4.",
+      "მისი მეორე განადგურება მიერ Macedoniansის - ეზე 27:32; 28:7,8,18; ზაქ 9:2-4."
+    ],
+    [
+      "israilites",
+      1,
+      "The senate of the Israilites composed of seventy elders Ex 24:1,9; Nu 11:16,24,25",
+      "Israilitesის სენატი შედგენილი სამოცდაათის ხუცესნი გამ 24:1,9; რიც 11:16,24,25"
+    ],
+    [
+      "laodiceans",
+      1,
+      "Laodiceans. — Re 3:17.",
+      "Laodiceansის - გამ 3:17."
+    ],
+    [
+      "pompous",
+      1,
+      "Pompous. — Eze 32:12.",
+      "Pompousის - ეზე 32:12."
+    ],
+    [
+      "gesher",
+      1,
+      "4. Father of the king of Gesher 2Sa 13:37",
+      "4. მამა Gesherის მეფე II მეფ 13:37"
+    ],
+    [
+      "impurity",
+      1,
+      "Impurity. — Pr 31:3.",
+      "Impurityის - იგა 31:3."
+    ],
+    [
+      "apocalypse",
+      1,
+      ".In the symbolisms of the Apocalypse Re 9:14; 16:12",
+      "ში Apocalypseის სიმბოლიზმები გამ 9:14; 16:12"
+    ],
+    [
+      "megiddon",
+      1,
+      "A place in the valley of Megiddon Zec 12:11",
+      "ადგილი ში Megiddonის ველი ზაქ 12:11"
+    ],
+    [
+      "joyfulness",
+      1,
+      "Joyfulness. — Col 1:11.",
+      "Joyfulnessის - კოლ 1:11."
+    ],
+    [
+      "devour",
+      1,
+      "Devour. — Hab 3:14.",
+      "Devourის - აბა 3:14."
+    ],
+    [
+      "malignant",
+      1,
+      "Malignant. — Job 1:9; 2:4.",
+      "Malignantის - იობ 1:9; 2:4."
+    ],
+    [
+      "herods",
+      1,
+      "The Herods. — Mt 2:16; 14:10; Ac 12:2.",
+      "Herodsის - მათე 2:16; 14:10; საქ 12:2."
+    ],
+    [
+      "tedious",
+      1,
+      "Tedious. — De 28:59; Joh 5:5; Lu 13:16.",
+      "Tediousის - მრჟ 28:59; იოა 5:5; ლუკა 13:16."
+    ],
+    [
+      "manuring",
+      1,
+      "Manuring. — Isa 25:10; Lu 14:34,35.",
+      "Manuringის - ესა 25:10; ლუკა 14:34,35."
+    ],
+    [
+      "melea",
+      1,
+      "1. Son of Melea Lu 3:30",
+      "1. Meleaის ძე ლუკა 3:30"
+    ],
+    [
+      "tabret",
+      1,
+      "Tabret. — 1Sa 10:5; Isa 24:8.",
+      "Tabretის - I მეფ 10:5; ესა 24:8."
+    ],
+    [
+      "hart",
+      1,
+      "Hart. — De 14:5; Job 39:1.",
+      "Hartის - მრჟ 14:5; იობ 39:1."
+    ],
+    [
+      "irrational",
+      1,
+      "Irrational. — Ac 17:29; Ro 1:21-23.",
+      "Irrationalის - საქ 17:29; რომ 1:21-23."
+    ],
+    [
+      "complicated",
+      1,
+      "Complicated. — De 28:60,61; Ac 28:8.",
+      "Complicatedის - მრჟ 28:60,61; საქ 28:8."
+    ],
+    [
+      "readily",
+      1,
+      "Readily. — Ne 9:17; Ps 86:5.",
+      "Readilyის - ნეე 9:17; ფსა 86:5."
+    ],
+    [
+      "winking",
+      1,
+      "Winking. — Pr 10:1.",
+      "Winkingის - იგა 10:1."
+    ],
+    [
+      "benjamim",
+      1,
+      "A town of the tribe of Benjamim 1Ch 8:12; Ne 6:2; 11:35",
+      "დაბა Benjamimის ტომი I ნეშ 8:12; ნეე 6:2; 11:35"
+    ],
+    [
+      "recompenses",
+      1,
+      "Recompenses. — Jer 16:18; Re 18:6.",
+      "Recompensesის - იერ 16:18; გამ 18:6."
+    ],
+    [
+      "frowardness",
+      1,
+      "Frowardness. — Pr 16:28.",
+      "Frowardnessის - იგა 16:28."
+    ],
+    [
+      "assuages",
+      1,
+      "Assuages. — Mt 8:26; 14:32.",
+      "Assuagesის - მათე 8:26; 14:32."
+    ],
+    [
+      "agile",
+      1,
+      "Agile. — Ps 114:4,6.",
+      "Agileის - ფსა 114:4,6."
+    ],
+    [
+      "banish",
+      1,
+      "Banish. — Isa 59:14.",
+      "Banishის - ესა 59:14."
+    ],
+    [
+      "hedging",
+      1,
+      "Hedging. — Isa 5:2,5; Ho 2:6.",
+      "Hedgingის - ესა 5:2,5; ოსი 2:6."
+    ],
+    [
+      "ton",
+      1,
+      "2. Son of Ton, or Toi 1Ch 18:10",
+      "2. Tonის ძე, ან თოე I ნეშ 18:10"
+    ],
+    [
+      "chestnut",
+      1,
+      "Chestnut. — Eze 31:8.",
+      "Chestnutის - ეზე 31:8."
+    ],
+    [
+      "rushes",
+      1,
+      "Rushes. — Job 8:11.",
+      "Rushesის - იობ 8:11."
+    ],
+    [
+      "seriah",
+      1,
+      "3. Father of Seriah Jer 36:26",
+      "3. Seriahის მამა იერ 36:26"
+    ],
+    [
+      "silenced",
+      1,
+      "Silenced. — Mt 22:34.",
+      "Silencedის - მათე 22:34."
+    ],
+    [
+      "sagacious",
+      1,
+      "Sagacious. — Joh 10:4,5.",
+      "Sagaciousის - იოა 10:4,5."
+    ],
+    [
+      "besda",
+      1,
+      "Bethesda. — Joh 5:2.",
+      "Besdaის - იოა 5:2."
+    ],
+    [
+      "imprudent",
+      1,
+      "Imprudent. — Job 39:15.",
+      "Imprudentის - იობ 39:15."
+    ],
+    [
+      "ulcers",
+      1,
+      "Ulcers. — Isa 1:6; Lu 16:20.",
+      "Ulcersის - ესა 1:6; ლუკა 16:20."
+    ],
+    [
+      "leeks",
+      1,
+      "Leeks. — Nu 11:5.",
+      "Leeksის - რიც 11:5."
+    ],
+    [
+      "chapmen",
+      1,
+      "Chapmen. — 2Ch 9:14.",
+      "Chapmenის - II ნეშ 9:14."
+    ],
+    [
+      "earthworm",
+      1,
+      "Earthworm. — Job 25:6; Mic 7:17.",
+      "Earthwormის - იობ 25:6; მიქ 7:17."
+    ],
+    [
+      "inspects",
+      1,
+      "Inspects. — Zec 4:10.",
+      "Inspectsის - ზაქ 4:10."
+    ],
+    [
+      "babbling",
+      1,
+      "Babbling. — Ec 10:11.",
+      "Babblingის - ეკლ 10:11."
+    ],
+    [
+      "enlightening",
+      1,
+      "Enlightening. — Ps 78:14; 105:39.",
+      "Enlighteningის - ფსა 78:14; 105:39."
+    ],
+    [
+      "baalzebub",
+      1,
+      "Baalzebub. — 2Ki 1:2,16.",
+      "Baalzebubის - IV მეფ 1:2,16."
+    ],
+    [
+      "mercury",
+      1,
+      "Mercury. — Ac 14:12.",
+      "Mercuryის - საქ 14:12."
+    ],
+    [
+      "debility",
+      1,
+      "Debility. — Ps 102:23; Eze 7:17.",
+      "Debilityის - ფსა 102:23; ეზე 7:17."
+    ],
+    [
+      "monthly",
+      1,
+      "Monthly. — Nu 28:11.",
+      "Monthlyის - რიც 28:11."
+    ],
+    [
+      "stormed",
+      1,
+      "Stormed. — Jos 8:3-7; Jdj 9:44.",
+      "Stormedის - იენ 8:3-7; მსა 9:44."
+    ],
+    [
+      "and",
+      1,
+      "To prove and humble them, &c. — De 8:2.",
+      "დაამტკიცეს andმდაბალი მათ — მრჟ 8:2."
+    ],
+    [
+      "fered",
+      1,
+      "Children offered in sacrifice in 2Ch 28:3; 33:6; Jer 7:31,32; 19:2,4,6; 32:35",
+      "შვილებიfered მსხვერპლში II ნეშ 28:3; 33:6; იერ 7:31,32; 19:2,4,6; 32:35"
+    ],
+    [
+      "tumultuous",
+      1,
+      "Tumultuous. — Lu 21:25; Jude 1:13.",
+      "Tumultuousის - ლუკა 21:25; იუდ 1:13."
+    ],
+    [
+      "mulberry",
+      1,
+      "Mulberry. — 2Sa 5:23,24.",
+      "Mulberryის - II მეფ 5:23,24."
+    ],
+    [
+      "neraiah",
+      1,
+      "1. Son of Neraiah 1Ch 3:23",
+      "1. Neraiahის ძე I ნეშ 3:23"
+    ],
+    [
+      "abidan",
+      1,
+      "Father of Abidan Nu 1:11; 2:22; 7:60,65; 10:24",
+      "Abidanის მამა რიც 1:11; 2:22; 7:60,65; 10:24"
+    ],
+    [
+      "sweeping",
+      1,
+      "Sweeping. — Pr 28:3.",
+      "Sweepingის - იგა 28:3."
+    ],
+    [
+      "overwhelming",
+      1,
+      "Overwhelming. — Ex 15:16; Job 15:21,24.",
+      "Overwhelmingის - გამ 15:16; იობ 15:21,24."
+    ],
+    [
+      "ephramite",
+      1,
+      "1. Father of an Ephramite who protested against the attempt of the Israelites to ensalve their captive brethren 2Ch 28:12,13",
+      "1. Ephramiteის მამა ვინ წავიდა ისრაელიანების მცდელობა დაემონეს მათი ტყვე ძმანი II ნეშ 28:12,13"
+    ],
+    [
+      "itching",
+      1,
+      "Itching. — 2Ti 4:3.",
+      "Itchingის - II ტიმ 4:3."
+    ],
+    [
+      "conceive",
+      1,
+      "Conceive. — Ps 7:14.",
+      "Conceiveის - ფსა 7:14."
+    ],
+    [
+      "trackless",
+      1,
+      "Trackless. — Isa 43:19.",
+      "Tracklessის - ესა 43:19."
+    ],
+    [
+      "ullam",
+      1,
+      "2. Son of Ullam 1Ch 7:17",
+      "2. Ullamის ძე I ნეშ 7:17"
+    ],
+    [
+      "game",
+      1,
+      "Game. — 1Sa 26:20.",
+      "Gameის - I მეფ 26:20."
+    ],
+    [
+      "levelled",
+      1,
+      "Levelled. — Isa 25:12.",
+      "Levelledის - ესა 25:12."
+    ],
+    [
+      "grecia",
+      1,
+      "Called the kingdom of Grecia — Da 11:2.",
+      "წოდებული Greciaის სამეფო — დან 11:2."
+    ],
+    [
+      "eventide",
+      1,
+      "Eventide. — Jos 8:29; Ac 4:3.",
+      "Eventideის - იენ 8:29; საქ 4:3."
+    ],
+    [
+      "jasher",
+      1,
+      "Jasher. — Jos 10:13; 2Sa 1:18.",
+      "Jasherის - იენ 10:13; II მეფ 1:18."
+    ],
+    [
+      "crush",
+      1,
+      "Crush. — Am 4:1.",
+      "Crushის - ამო 4:1."
+    ],
+    [
+      "unsocial",
+      1,
+      "Unsocial. — Ho 8:9.",
+      "Unsocialის - ოსი 8:9."
+    ],
+    [
+      "imiah",
+      1,
+      "Father of Imiah 2Ki 19:2,20; 20:1; Isa 1:1; 13:1",
+      "Imiahის მამა IV მეფ 19:2,20; 20:1; ესა 1:1; 13:1"
+    ],
+    [
+      "cruises",
+      1,
+      "Cruises. — 1Ki 17:12.",
+      "Cruisesის - III მეფ 17:12."
+    ],
+    [
+      "weekly",
+      1,
+      "Weekly. — Nu 28:9,10.",
+      "Weeklyის - რიც 28:9,10."
+    ],
+    [
+      "heating",
+      1,
+      "Heating. — Mr 14:54.",
+      "Heatingის - მარ 14:54."
+    ],
+    [
+      "christianity",
+      1,
+      "2. Judaizers were a corrupt form of Christianity Ac 15:1; 21:20-25; Ga 3; 4; 5; 6",
+      "2. იუდაიზებელნი იყვნენ ბილწი Christianityის ფორმა საქ 15:1; 21:20-25; გალ 3; 4; 5; 6"
+    ],
+    [
+      "iturea",
+      1,
+      "2. Tetrarch of Iturea Lu 3:1",
+      "2. Itureaის ტეტრარქი ლუკა 3:1"
+    ],
+    [
+      "enthroning",
+      1,
+      "Enthroning. — 1Ki 1:35,46; 2Ki 11:19.",
+      "Enthroningის - III მეფ 1:35,46; IV მეფ 11:19."
+    ],
+    [
+      "retirement",
+      1,
+      "Retirement. — Joh 18:1.",
+      "Retirementის - იოა 18:1."
+    ],
+    [
+      "malefactor",
+      1,
+      "Malefactor. — Lu 23:39.",
+      "Malefactorის - ლუკა 23:39."
+    ],
+    [
+      "avaricious",
+      1,
+      "Avaricious. — Mt 23:14; Lu 16:14.",
+      "Avariciousის - მათე 23:14; ლუკა 16:14."
+    ],
+    [
+      "nashon",
+      1,
+      ".Father of Nashon Nu 1:7; 2:9",
+      "Nashonის მამა რიც 1:7; 2:9"
+    ],
+    [
+      "fleeting",
+      1,
+      "Fleeting. — Pr 23:5; Re 18:16,17.",
+      "Fleetingის - იგა 23:5; გამ 18:16,17."
+    ],
+    [
+      "soothsayers",
+      1,
+      "Soothsayers. — Isa 2:6; Da 2:27.",
+      "Soothsayersის - ესა 2:6; დან 2:27."
+    ],
+    [
+      "restraint",
+      1,
+      "Restraint. — Job 9:7; 37:7; Re 20:3.",
+      "Restraintის - იობ 9:7; 37:7; გამ 20:3."
+    ],
+    [
+      "aunticating",
+      1,
+      "Authenticating. — Joh 6:27; 2Co 1:22.",
+      "Aunticatingის - იოა 6:27; II კორ 1:22."
+    ],
+    [
+      "shulah",
+      1,
+      "2. A son of Shuthelah 1Ch 7:20",
+      "2. Shulahის ძე I ნეშ 7:20"
+    ],
+    [
+      "literature",
+      1,
+      "Literature. — 1Ki 4:30; Ac 7:22.",
+      "Literatureის - III მეფ 4:30; საქ 7:22."
+    ],
+    [
+      "charmers",
+      1,
+      "Charmers. — De 18:11.",
+      "Charmersის - მრჟ 18:11."
+    ],
+    [
+      "hadarezer",
+      1,
+      "Captain of the army of Hadarezer; killed by David’ s army 2Sa 10:16,18",
+      "სარდალი Hadarezerის ლაშქარი; მოკლული დავითის მიერ' ლაშქარი II მეფ 10:16,18"
+    ],
+    [
+      "sonorousness",
+      1,
+      "Sonorousness. — 1Co 13:1.",
+      "Sonorousnessის - I კორ 13:1."
+    ],
+    [
+      "fearlessly",
+      1,
+      "Fearlessly. — Eze 2:3-7.",
+      "Fearlesslyის - ეზე 2:3-7."
+    ],
+    [
+      "nighthawk",
+      1,
+      "Nighthawk. — Le 11:16.",
+      "Nighthawkის - ლევ 11:16."
+    ],
+    [
+      "underived",
+      1,
+      "Underived. — Job 21:22; Isa 40:14.",
+      "Underivedის - იობ 21:22; ესა 40:14."
+    ],
+    [
+      "footstools",
+      1,
+      "Footstools. — 2Ch 9:18.",
+      "Footstoolsის - II ნეშ 9:18."
+    ],
+    [
+      "binders",
+      1,
+      "Binders. — Ge 37:7; Ps 129:7.",
+      "Bindersის - დაბ 37:7; ფსა 129:7."
+    ],
+    [
+      "unreservedly",
+      1,
+      "Unreservedly. — Isa 58:1.",
+      "Unreservedlyის - ესა 58:1."
+    ],
+    [
+      "gallant",
+      1,
+      "Gallant. — Isa 33:21.",
+      "Gallantის - ესა 33:21."
+    ],
+    [
+      "aramathaea",
+      1,
+      ".Joseph of Aramathaea Mt 27:57-60",
+      "Aramathaeaის იოსები მათე 27:57-60"
+    ],
+    [
+      "bricks",
+      1,
+      "Bricks. — Ex 1:11-14; Isa 9:10.",
+      "Bricksის - გამ 1:11-14; ესა 9:10."
+    ],
+    [
+      "ponders",
+      1,
+      "Ponders. — Pr 21:2; 24:12.",
+      "Pondersის - იგა 21:2; 24:12."
+    ],
+    [
+      "manseiah",
+      1,
+      "1. Son of Manseiah Ne 3:23; 8:4",
+      "1. Manseiahის ძე ნეე 3:23; 8:4"
+    ],
+    [
+      "fishing",
+      1,
+      "Fishing. — Mt 4:21; Lu 5:4-9; Joh 21:3-8.",
+      "Fishingის - მათე 4:21; ლუკა 5:4-9; იოა 21:3-8."
+    ],
+    [
+      "digging",
+      1,
+      "Digging. — Isa 5:6; Lu 13:8; 16:3.",
+      "Diggingის - ესა 5:6; ლუკა 13:8; 16:3."
+    ],
+    [
+      "pharaohs",
+      1,
+      ".City of, built by the Israelites as a treasure city for one of the Pharaohs Ex 1:11",
+      "ქალაქი, აშენებული ისრაელიანების როგორცის განძი ქალაქი თვის Pharaohsის ერთი გამ 1:11"
+    ],
+    [
+      "cleanness",
+      1,
+      "Cleanness of Teeth. — Am 4:6.",
+      "კბილების Cleannessის - ამო 4:6."
+    ],
+    [
+      "corpses",
+      1,
+      "Corpses. — 2Ki 19:35; Na 3:3.",
+      "Corpsesის - IV მეფ 19:35; ნაუ 3:3."
+    ],
+    [
+      "violent",
+      1,
+      "Violent. — Ps 58:2; Isa 59:6.",
+      "Violentის - ფსა 58:2; ესა 59:6."
+    ],
+    [
+      "galilaeans",
+      1,
+      "Called Galilaeans. — Ac 2:7.",
+      "წოდებული Galilaeansის - საქ 2:7."
+    ],
+    [
+      "thickets",
+      1,
+      "Thickets. — Jer 4:7.",
+      "Thicketsის - იერ 4:7."
+    ],
+    [
+      "gourds",
+      1,
+      "Gourds. — 2Ki 4:39.",
+      "Gourdsის - IV მეფ 4:39."
+    ],
+    [
+      "jewry",
+      1,
+      "Jewry. — Da 5:13; Joh 7:1.",
+      "Jewryის - დან 5:13; იოა 7:1."
+    ],
+    [
+      "nephinim",
+      1,
+      "A family of the Nephinim Ne 7:52",
+      "Nephinimის ოჯახი ნეე 7:52"
+    ],
+    [
+      "horseleech",
+      1,
+      "Horseleech. — Pr 30:15.",
+      "Horseleechის - იგა 30:15."
+    ],
+    [
+      "cambyses",
+      1,
+      "Ahasuerus or Cambyses. — Ezr 4:6.",
+      "ასუეროსი ან Cambysesის - ეზრ 4:6."
+    ]
+  ],
+  "apostrophe_words": [
+    [
+      "ღმერთი",
+      143
+    ],
+    [
+      "ერთი",
+      86
+    ],
+    [
+      "მიერ",
+      38
+    ],
+    [
+      "უფალი",
+      27
+    ],
+    [
+      "მამა",
+      25
+    ],
+    [
+      "ქრისტე",
+      24
+    ],
+    [
+      "მეფე",
+      22
+    ],
+    [
+      "მღვდელი",
+      19
+    ],
+    [
+      "იაკობი",
+      18
+    ],
+    [
+      "სოლომონში",
+      17
+    ],
+    [
+      "ქვეშ",
+      16
+    ],
+    [
+      "ღმერთს",
+      16
+    ],
+    [
+      "საული",
+      15
+    ],
+    [
+      "ქვრივი",
+      14
+    ],
+    [
+      "იობი",
+      14
+    ],
+    [
+      "ელი",
+      14
+    ],
+    [
+      "ღმერთში",
+      13
+    ],
+    [
+      "ღმერთისთვის",
+      13
+    ],
+    [
+      "კაცი",
+      12
+    ],
+    [
+      "იაკობიდან",
+      11
+    ],
+    [
+      "იოანეში",
+      11
+    ],
+    [
+      "შემდეგ",
+      11
+    ],
+    [
+      "ლოტი",
+      11
+    ],
+    [
+      "ფარაონი",
+      10
+    ],
+    [
+      "ღმერთის",
+      10
+    ],
+    [
+      "დედა",
+      9
+    ],
+    [
+      "პოტიფარი",
+      9
+    ],
+    [
+      "მეფეის",
+      8
+    ],
+    [
+      "აბესალომი",
+      8
+    ],
+    [
+      "დრო",
+      8
+    ],
+    [
+      "ეზეკია",
+      8
+    ],
+    [
+      "ეზეკიელში",
+      8
+    ],
+    [
+      "ანგარიში",
+      7
+    ],
+    [
+      "იერემია",
+      7
+    ],
+    [
+      "აარონი",
+      7
+    ],
+    [
+      "სარდალი",
+      7
+    ],
+    [
+      "დავითში",
+      7
+    ],
+    [
+      "ქრისტესთვის",
+      7
+    ],
+    [
+      "კაცის",
+      7
+    ],
+    [
+      "ნაბოთი",
+      6
+    ],
+    [
+      "დავითთან",
+      6
+    ],
+    [
+      "სამუელი",
+      6
+    ],
+    [
+      "სამსონი",
+      6
+    ],
+    [
+      "ეზეკიაში",
+      6
+    ],
+    [
+      "ქრისტეთან",
+      6
+    ],
+    [
+      "საულში",
+      5
+    ],
+    [
+      "სოლომონისთვის",
+      5
+    ],
+    [
+      "დღე",
+      5
+    ],
+    [
+      "ღმერთთან",
+      5
+    ],
+    [
+      "ტიპოლოგიური",
+      5
+    ],
+    [
+      "სოლომონს",
+      5
+    ],
+    [
+      "იერობოამი",
+      5
+    ],
+    [
+      "მღვდელში",
+      5
+    ],
+    [
+      "წინასწარმეტყველი",
+      5
+    ],
+    [
+      "მღვდელის",
+      5
+    ],
+    [
+      "ინსტრუმენტი",
+      5
+    ],
+    [
+      "ლაბანი",
+      5
+    ],
+    [
+      "განადგურება",
+      5
+    ],
+    [
+      "კაცნი",
+      5
+    ],
+    [
+      "დანიელში",
+      4
+    ],
+    [
+      "ელისე",
+      4
+    ],
+    [
+      "იუდა",
+      4
+    ],
+    [
+      "ღმერთიდან",
+      4
+    ],
+    [
+      "დიდებული",
+      4
+    ],
+    [
+      "განკურნება",
+      4
+    ],
+    [
+      "იეფთახი",
+      4
+    ],
+    [
+      "ისრაელი",
+      4
+    ],
+    [
+      "უფალში",
+      4
+    ],
+    [
+      "ახაბი",
+      4
+    ],
+    [
+      "იაკობში",
+      4
+    ],
+    [
+      "სავსე",
+      4
+    ],
+    [
+      "მშობლები",
+      4
+    ],
+    [
+      "ვირი",
+      4
+    ],
+    [
+      "მირიამი",
+      4
+    ],
+    [
+      "ნეემია",
+      4
+    ],
+    [
+      "ელია",
+      4
+    ],
+    [
+      "წინააღმდეგ",
+      4
+    ],
+    [
+      "ასისთავი",
+      3
+    ],
+    [
+      "გოლიათი",
+      3
+    ],
+    [
+      "ადონია",
+      3
+    ],
+    [
+      "რებეკა",
+      3
+    ],
+    [
+      "გამოცხადება",
+      3
+    ],
+    [
+      "მესაგონე",
+      3
+    ],
+    [
+      "ძმა",
+      3
+    ],
+    [
+      "ქრისტეს",
+      3
+    ],
+    [
+      "ადგილი",
+      3
+    ],
+    [
+      "მოსახსენიებელი",
+      3
+    ],
+    [
+      "ზრუნვა",
+      3
+    ],
+    [
+      "იოაბი",
+      3
+    ],
+    [
+      "დედაკაცი",
+      3
+    ],
+    [
+      "ნაბუქოდონოსორში",
+      3
+    ],
+    [
+      "იეჰოვა",
+      3
+    ],
+    [
+      "ქალები",
+      3
+    ],
+    [
+      "ქრისტეში",
+      3
+    ],
+    [
+      "იონ",
+      3
+    ],
+    [
+      "კრავი",
+      3
+    ],
+    [
+      "ლომებში",
+      3
+    ],
+    [
+      "გედეონზე",
+      3
+    ],
+    [
+      "შესახებ",
+      3
+    ],
+    [
+      "პილატე",
+      3
+    ],
+    [
+      "გედეონი",
+      3
+    ],
+    [
+      "მაჩვების",
+      3
+    ],
+    [
+      "ესავი",
+      3
+    ],
+    [
+      "ითრო",
+      3
+    ],
+    [
+      "კაცისთვის",
+      3
+    ],
+    [
+      "სახელზე",
+      3
+    ],
+    [
+      "შემთხვევა",
+      2
+    ],
+    [
+      "სკევა",
+      2
+    ],
+    [
+      "მეფეს",
+      2
+    ],
+    [
+      "ეზეკიელი",
+      2
+    ],
+    [
+      "მიქ",
+      2
+    ],
+    [
+      "ეზეკიათან",
+      2
+    ],
+    [
+      "მწყემსი",
+      2
+    ],
+    [
+      "იოსებისთვის",
+      2
+    ],
+    [
+      "ელიათან",
+      2
+    ],
+    [
+      "ამახინჯებსზე",
+      2
+    ],
+    [
+      "რახელთან",
+      2
+    ],
+    [
+      "ნავეის",
+      2
+    ],
+    [
+      "სატანას",
+      2
+    ],
+    [
+      "ნათლისმცემელი",
+      2
+    ],
+    [
+      "მოწაფეები",
+      2
+    ],
+    [
+      "რობოამი",
+      2
+    ],
+    [
+      "ერთიდან",
+      2
+    ],
+    [
+      "გარეუფალთან",
+      2
+    ],
+    [
+      "საულისთვის",
+      2
+    ],
+    [
+      "ქვეშევრდომი",
+      2
+    ],
+    [
+      "თევზში",
+      2
+    ],
+    [
+      "ესაია",
+      2
+    ],
+    [
+      "შორის",
+      2
+    ],
+    [
+      "მცხობელი",
+      2
+    ],
+    [
+      "მეფესთვის",
+      2
+    ],
+    [
+      "ცას",
+      2
+    ],
+    [
+      "დურგალი",
+      2
+    ],
+    [
+      "აბიმელექი",
+      2
+    ],
+    [
+      "პირი",
+      2
+    ],
+    [
+      "ანგელოზი",
+      2
+    ],
+    [
+      "გადაშენება",
+      2
+    ],
+    [
+      "ეზე",
+      2
+    ],
+    [
+      "გასვლა",
+      2
+    ],
+    [
+      "მეთაური",
+      2
+    ],
+    [
+      "მიძღვნა",
+      2
+    ],
+    [
+      "ნიშანი",
+      2
+    ],
+    [
+      "მოციქულების",
+      2
+    ],
+    [
+      "დან",
+      2
+    ],
+    [
+      "არის",
+      2
+    ],
+    [
+      "აბნერი",
+      2
+    ],
+    [
+      "მთა",
+      2
+    ],
+    [
+      "მეშვეობით",
+      2
+    ],
+    [
+      "ნავე",
+      2
+    ],
+    [
+      "ღმერთზე",
+      2
+    ],
+    [
+      "ნოეში",
+      2
+    ],
+    [
+      "სახლი",
+      2
+    ],
+    [
+      "ნოე",
+      2
+    ],
+    [
+      "სტეფანე",
+      2
+    ],
+    [
+      "აქლემი",
+      2
+    ],
+    [
+      "გარეშე",
+      2
+    ],
+    [
+      "ჩვენუფალთან",
+      2
+    ],
+    [
+      "სიახლოვე",
+      2
+    ],
+    [
+      "მოკლებული",
+      2
+    ],
+    [
+      "შემთხვევები",
+      2
+    ],
+    [
+      "რუბენი",
+      2
+    ],
+    [
+      "კეთროვანი",
+      2
+    ],
+    [
+      "ქმარი",
+      2
+    ],
+    [
+      "მანოახი",
+      2
+    ],
+    [
+      "ანნა",
+      2
+    ],
+    [
+      "იესოთან",
+      2
+    ],
+    [
+      "იობის",
+      2
+    ],
+    [
+      "შიმეი",
+      2
+    ],
+    [
+      "ფარაონისთვის",
+      2
+    ],
+    [
+      "აღდგენა",
+      2
+    ],
+    [
+      "რახელი",
+      2
+    ],
+    [
+      "მეჭურჭლე",
+      2
+    ],
+    [
+      "შეურაცხყოფა",
+      2
+    ],
+    [
+      "მმართველი",
+      2
+    ],
+    [
+      "იაიროსი",
+      2
+    ],
+    [
+      "ნაბალი",
+      2
+    ],
+    [
+      "იოსებიდან",
+      2
+    ],
+    [
+      "იონათანი",
+      2
+    ],
+    [
+      "გახსნა",
+      2
+    ],
+    [
+      "თხების",
+      2
+    ],
+    [
+      "ახლოს",
+      2
+    ],
+    [
+      "ილუსტრირებული",
+      1
+    ],
+    [
+      "ისკარიოტელი",
+      1
+    ],
+    [
+      "აბიამი",
+      1
+    ],
+    [
+      "მდგომარეობა",
+      1
+    ],
+    [
+      "იესოში",
+      1
+    ],
+    [
+      "იუდაელები",
+      1
+    ],
+    [
+      "ერთზე",
+      1
+    ],
+    [
+      "ჰეროდეში",
+      1
+    ],
+    [
+      "წინ",
+      1
+    ],
+    [
+      "აღრიცხვა",
+      1
+    ],
+    [
+      "ქვეშევრდომები",
+      1
+    ],
+    [
+      "იოსია",
+      1
+    ],
+    [
+      "ელიას",
+      1
+    ],
+    [
+      "მოწმე",
+      1
+    ],
+    [
+      "ფარაონიდან",
+      1
+    ],
+    [
+      "ცხოვრება",
+      1
+    ],
+    [
+      "ლეა",
+      1
+    ],
+    [
+      "ნაზირეველის",
+      1
+    ],
+    [
+      "ბორბლები",
+      1
+    ],
+    [
+      "იეჰოშაფატთან",
+      1
+    ],
+    [
+      "ნაბოთის",
+      1
+    ],
+    [
+      "ელიფაზი",
+      1
+    ],
+    [
+      "მონუმენტები",
+      1
+    ],
+    [
+      "იესოზე",
+      1
+    ],
+    [
+      "თაობები",
+      1
+    ],
+    [
+      "მეომარი",
+      1
+    ],
+    [
+      "კერპში",
+      1
+    ],
+    [
+      "საშინელება",
+      1
+    ],
+    [
+      "პეტრეში",
+      1
+    ],
+    [
+      "ნახონი",
+      1
+    ],
+    [
+      "ნაემანი",
+      1
+    ],
+    [
+      "ანგარი",
+      1
+    ],
+    [
+      "ეკლესია",
+      1
+    ],
+    [
+      "დიდი",
+      1
+    ],
+    [
+      "ეზეკიელის",
+      1
+    ],
+    [
+      "პავლეზე",
+      1
+    ],
+    [
+      "ლემუელი",
+      1
+    ],
+    [
+      "იეჰოშაფატს",
+      1
+    ],
+    [
+      "ბოშეთი",
+      1
+    ],
+    [
+      "სამი",
+      1
+    ],
+    [
+      "კარუფალთან",
+      1
+    ],
+    [
+      "გაპარტოხა",
+      1
+    ],
+    [
+      "ახითოფელი",
+      1
+    ],
+    [
+      "პრინციპები",
+      1
+    ],
+    [
+      "ისრაელიანები",
+      1
+    ],
+    [
+      "ვალდებული",
+      1
+    ],
+    [
+      "აბრაამთან",
+      1
+    ],
+    [
+      "სისწრაფე",
+      1
+    ],
+    [
+      "მოკითხვა",
+      1
+    ],
+    [
+      "უარყოფა",
+      1
+    ],
+    [
+      "იერემიაში",
+      1
+    ],
+    [
+      "ახია",
+      1
+    ],
+    [
+      "უნდობლობა",
+      1
+    ],
+    [
+      "ისრაელის",
+      1
+    ],
+    [
+      "სამსონთან",
+      1
+    ],
+    [
+      "დარიოსი",
+      1
+    ],
+    [
+      "გარდაქმნა",
+      1
+    ],
+    [
+      "რააბი",
+      1
+    ],
+    [
+      "სცენა",
+      1
+    ],
+    [
+      "მიქალს",
+      1
+    ],
+    [
+      "მტრები",
+      1
+    ],
+    [
+      "სიმონი",
+      1
+    ],
+    [
+      "ისრაელში",
+      1
+    ],
+    [
+      "პატიმარი",
+      1
+    ],
+    [
+      "ჭრა",
+      1
+    ],
+    [
+      "მიღმა",
+      1
+    ],
+    [
+      "დამნაშავეზე",
+      1
+    ],
+    [
+      "მტვერი",
+      1
+    ],
+    [
+      "მეჭურჭლესთვის",
+      1
+    ],
+    [
+      "მორჩილნი",
+      1
+    ],
+    [
+      "შერჩევა",
+      1
+    ],
+    [
+      "ზღვარი",
+      1
+    ],
+    [
+      "ბალაამი",
+      1
+    ],
+    [
+      "ვერძის",
+      1
+    ],
+    [
+      "ჰეროდე",
+      1
+    ],
+    [
+      "დღეები",
+      1
+    ],
+    [
+      "იეჰოშაფატში",
+      1
+    ],
+    [
+      "უფალზე",
+      1
+    ],
+    [
+      "იეზაბელი",
+      1
+    ],
+    [
+      "ცოდვილი",
+      1
+    ],
+    [
+      "მზეის",
+      1
+    ],
+    [
+      "პასუხისმგებლობები",
+      1
+    ],
+    [
+      "იეჰოიადა",
+      1
+    ],
+    [
+      "თანამგზავრი",
+      1
+    ],
+    [
+      "ახაბში",
+      1
+    ],
+    [
+      "მარი",
+      1
+    ],
+    [
+      "წმიდანები",
+      1
+    ],
+    [
+      "ამაცია",
+      1
+    ],
+    [
+      "ვინმე",
+      1
+    ],
+    [
+      "ჰოსა",
+      1
+    ],
+    [
+      "ამანში",
+      1
+    ],
+    [
+      "იეჰუ",
+      1
+    ],
+    [
+      "მესია",
+      1
+    ],
+    [
+      "ტვირთი",
+      1
+    ],
+    [
+      "უზიაში",
+      1
+    ],
+    [
+      "ვერძების",
+      1
+    ],
+    [
+      "ბრწყინვალება",
+      1
+    ],
+    [
+      "შვილებში",
+      1
+    ],
+    [
+      "მშობლებისთვის",
+      1
+    ],
+    [
+      "ზედამხედველი",
+      1
+    ],
+    [
+      "სოფელი",
+      1
+    ],
+    [
+      "უარმყოფელნი",
+      1
+    ],
+    [
+      "სავარძელი",
+      1
+    ],
+    [
+      "სია",
+      1
+    ],
+    [
+      "დაწესება",
+      1
+    ],
+    [
+      "ესავში",
+      1
+    ],
+    [
+      "გველგმული",
+      1
+    ],
+    [
+      "მამას",
+      1
+    ],
+    [
+      "ლევიანი",
+      1
+    ],
+    [
+      "ობიექტები",
+      1
+    ],
+    [
+      "მონაკვეთი",
+      1
+    ],
+    [
+      "ფინხასი",
+      1
+    ],
+    [
+      "ერები",
+      1
+    ],
+    [
+      "სახელი",
+      1
+    ],
+    [
+      "ირონია",
+      1
+    ],
+    [
+      "იოსების",
+      1
+    ],
+    [
+      "აბრაამს",
+      1
+    ],
+    [
+      "ესთ",
+      1
+    ],
+    [
+      "იეჰოიაკიმთან",
+      1
+    ],
+    [
+      "აღთქმები",
+      1
+    ],
+    [
+      "ემანუელი",
+      1
+    ],
+    [
+      "ამანი",
+      1
+    ],
+    [
+      "მღვდელიდან",
+      1
+    ],
+    [
+      "კაცნს",
+      1
+    ],
+    [
+      "აქანი",
+      1
+    ],
+    [
+      "პავლეს",
+      1
+    ],
+    [
+      "ესავთან",
+      1
+    ],
+    [
+      "მღვდლებს",
+      1
+    ],
+    [
+      "აგარი",
+      1
+    ],
+    [
+      "ნეემიას",
+      1
+    ],
+    [
+      "ლაბანიდან",
+      1
+    ],
+    [
+      "წმიდანის",
+      1
+    ],
+    [
+      "სხვას",
+      1
+    ],
+    [
+      "ესთერი",
+      1
+    ],
+    [
+      "დამახინჯება",
+      1
+    ],
+    [
+      "მანასე",
+      1
+    ],
+    [
+      "ეფრემელი",
+      1
+    ],
+    [
+      "ტინდალში",
+      1
+    ],
+    [
+      "მღვდლები",
+      1
+    ],
+    [
+      "ამანის",
+      1
+    ],
+    [
+      "კაცს",
+      1
+    ],
+    [
+      "სენაქერიმი",
+      1
+    ],
+    [
+      "ქრისტეის",
+      1
+    ],
+    [
+      "ონი",
+      1
+    ],
+    [
+      "დამყარება",
+      1
+    ],
+    [
+      "ახაზზე",
+      1
+    ],
+    [
+      "მეუღვრები",
+      1
+    ],
+    [
+      "მეუღვე",
+      1
+    ],
+    [
+      "ლომები",
+      1
+    ],
+    [
+      "ელკანაში",
+      1
+    ],
+    [
+      "მოგზაურობა",
+      1
+    ],
+    [
+      "სამუელს",
+      1
+    ],
+    [
+      "ტიმოთე",
+      1
+    ],
+    [
+      "ყველა",
+      1
+    ],
+    [
+      "ძმათან",
+      1
+    ],
+    [
+      "ოფიცერი",
+      1
+    ],
+    [
+      "ნათანელი",
+      1
+    ],
+    [
+      "დებორა",
+      1
+    ],
+    [
+      "კიდობანი",
+      1
+    ],
+    [
+      "მსახურის",
+      1
+    ],
+    [
+      "სამარიელები",
+      1
+    ],
+    [
+      "არავინ",
+      1
+    ],
+    [
+      "რობოამში",
+      1
+    ],
+    [
+      "ჩვილი",
+      1
+    ],
+    [
+      "ფილიპე",
+      1
+    ],
+    [
+      "ქვრივები",
+      1
+    ],
+    [
+      "სიუცბო",
+      1
+    ],
+    [
+      "ბალაკთან",
+      1
+    ],
+    [
+      "გარე",
+      1
+    ],
+    [
+      "იოსებზე",
+      1
+    ],
+    [
+      "ისრაელიდან",
+      1
+    ],
+    [
+      "იეჰოშაფატი",
+      1
+    ],
+    [
+      "განხეთქილება",
+      1
+    ],
+    [
+      "მეფეზე",
+      1
+    ],
+    [
+      "დამარცხება",
+      1
+    ],
+    [
+      "ეპაფრასი",
+      1
+    ],
+    [
+      "აბსალომში",
+      1
+    ],
+    [
+      "ხირამი",
+      1
+    ],
+    [
+      "გადაბრუნება",
+      1
+    ],
+    [
+      "იორდანე",
+      1
+    ],
+    [
+      "აბრაამზე",
+      1
+    ],
+    [
+      "ლაბანისთვის",
+      1
+    ],
+    [
+      "მართვა",
+      1
+    ],
+    [
+      "არტაქსერქსე",
+      1
+    ],
+    [
+      "იორამი",
+      1
+    ],
+    [
+      "ფარაონში",
+      1
+    ],
+    [
+      "ისმაელი",
+      1
+    ],
+    [
+      "ქალწულში",
+      1
+    ],
+    [
+      "კაინი",
+      1
+    ],
+    [
+      "იოსიაში",
+      1
+    ],
+    [
+      "ძე",
+      1
+    ],
+    [
+      "ელისეში",
+      1
+    ],
+    [
+      "დავითს",
+      1
+    ],
+    [
+      "სამარია",
+      1
+    ],
+    [
+      "მოქცევა",
+      1
+    ],
+    [
+      "წმიდანების",
+      1
+    ],
+    [
+      "მძვინვარება",
+      1
+    ],
+    [
+      "გედალია",
+      1
+    ],
+    [
+      "საულთან",
+      1
+    ],
+    [
+      "საულიდან",
+      1
+    ],
+    [
+      "პავლედან",
+      1
+    ],
+    [
+      "სათვალყუროების",
+      1
+    ],
+    [
+      "მოსეში",
+      1
+    ],
+    [
+      "დედაკაცები",
+      1
+    ],
+    [
+      "სიყვარული",
+      1
+    ],
+    [
+      "შური",
+      1
+    ],
+    [
+      "ტოტი",
+      1
+    ],
+    [
+      "გირავნობა",
+      1
+    ],
+    [
+      "ბოროტება",
+      1
+    ],
+    [
+      "ხალხი",
+      1
+    ],
+    [
+      "დაგონი",
+      1
+    ],
+    [
+      "ქალებს",
+      1
+    ],
+    [
+      "იოსებს",
+      1
+    ],
+    [
+      "მტკიცებულება",
+      1
+    ],
+    [
+      "დიადი",
+      1
+    ],
+    [
+      "ავგუსტოსი",
+      1
+    ],
+    [
+      "ქანაანიდან",
+      1
+    ],
+    [
+      "კედელი",
+      1
+    ],
+    [
+      "მეღვინის",
+      1
+    ],
+    [
+      "ასაში",
+      1
+    ],
+    [
+      "აბრაამიდან",
+      1
+    ],
+    [
+      "კრებული",
+      1
+    ],
+    [
+      "იუდაელი",
+      1
+    ],
+    [
+      "დედაქალაქი",
+      1
+    ],
+    [
+      "ზევით",
+      1
+    ],
+    [
+      "კეისარი",
+      1
+    ],
+    [
+      "ახაზიაზე",
+      1
+    ],
+    [
+      "მსახური",
+      1
+    ],
+    [
+      "სახელისთვის",
+      1
+    ],
+    [
+      "ბარაკი",
+      1
+    ],
+    [
+      "წვერები",
+      1
+    ],
+    [
+      "უღირსი",
+      1
+    ],
+    [
+      "სანბალატი",
+      1
+    ],
+    [
+      "უფალიდან",
+      1
+    ],
+    [
+      "მოციქულებში",
+      1
+    ],
+    [
+      "ფრინველი",
+      1
+    ],
+    [
+      "აბრაამში",
+      1
+    ],
+    [
+      "ყიდვა",
+      1
+    ],
+    [
+      "განძები",
+      1
+    ],
+    [
+      "იონათან",
+      1
+    ],
+    [
+      "ოსიას",
+      1
+    ],
+    [
+      "ბუნება",
+      1
+    ],
+    [
+      "მათ",
+      1
+    ],
+    [
+      "ქმარისთვის",
+      1
+    ],
+    [
+      "დახურვა",
+      1
+    ],
+    [
+      "მიწერა",
+      1
+    ],
+    [
+      "ჰადადი",
+      1
+    ],
+    [
+      "დაგონში",
+      1
+    ],
+    [
+      "ლომი",
+      1
+    ],
+    [
+      "ოსი",
+      1
+    ],
+    [
+      "თვეები",
+      1
+    ],
+    [
+      "დაბალი",
+      1
+    ],
+    [
+      "ბატონი",
+      1
+    ],
+    [
+      "წევრები",
+      1
+    ],
+    [
+      "იესოს",
+      1
+    ],
+    [
+      "ქალწული",
+      1
+    ],
+    [
+      "მუშა",
+      1
+    ],
+    [
+      "ცოდვილის",
+      1
+    ],
+    [
+      "თევზიდან",
+      1
+    ],
+    [
+      "ასა",
+      1
+    ],
+    [
+      "არ",
+      1
+    ],
+    [
+      "ბატონთან",
+      1
+    ],
+    [
+      "სატანადან",
+      1
+    ],
+    [
+      "თამარი",
+      1
+    ],
+    [
+      "ინსტრუმენტები",
+      1
+    ],
+    [
+      "დედაკაცს",
+      1
+    ],
+    [
+      "განწესება",
+      1
+    ],
+    [
+      "ძენი",
+      1
+    ],
+    [
+      "არავნაზე",
+      1
+    ],
+    [
+      "მოპყრობა",
+      1
+    ],
+    [
+      "ნაწილი",
+      1
+    ],
+    [
+      "არწივთან",
+      1
+    ],
+    [
+      "ელკანა",
+      1
+    ],
+    [
+      "მეჭურჭლეში",
+      1
+    ]
+  ],
+  "generated_by": "manual extraction from topic_labels_ka.json",
+  "note": "iii is a known Roman numeral and not an error; the rest need review or dictionary mapping"
+}

@@ -1,0 +1,13 @@
+tunnel: 191098b5-0b28-47af-8fd0-9d9e72190a4e
+credentials-file: /etc/cloudflared/credentials.json
+
+ingress:
+  - hostname: web.net.ge
+    service: http://localhost:80
+  - hostname: www.web.net.ge
+    service: http://localhost:80
+  - hostname: biblegeo.eu.org
+    service: http://localhost:80
+  - hostname: www.biblegeo.eu.org
+    service: http://localhost:80
+  - service: http_status:404

@@ -1,0 +1,188 @@
+// === განმარტების ვიდეო (YouTube) ===
+// 1. თავების მიხედვით (commentary_map.json) — მათე 1-28
+// 2. ფლეილისთი (commentary_map2.json) — მათე "განმარტება 2" + იოანე
+
+let commentaryMap = null;
+let commentaryMap2 = null;
+let commentaryCurrentVideoId = null;
+let commentaryCurrentPlaylist = null;
+let commentaryCurrentChapter2 = null;
+let commentaryOpen = false;
+let commentaryOpen2 = false;
+
+(function preloadCommentary() {
+  fetch('/static/commentary_map.json?v=' + Date.now())
+    .then(r => r.json())
+    .then(data => { commentaryMap = data; })
+    .catch(e => { commentaryMap = {}; });
+  fetch('/static/commentary_map2.json?v=' + Date.now())
+    .then(r => r.json())
+    .then(data => { commentaryMap2 = data; })
+    .catch(e => { commentaryMap2 = {}; });
+})();
+
+function hasCommentary(bookSlug, chapter) {
+  return !!(commentaryMap && commentaryMap[bookSlug] && commentaryMap[bookSlug][String(chapter)]);
+}
+
+function hasCommentary2(bookSlug) {
+  return !!(commentaryMap2 && commentaryMap2[bookSlug]);
+}
+
+function initCommentaryForChapter(bookSlug, chapter, bookName) {
+  _closeCommentary();
+  _closeCommentary2();
+  if (!commentaryMap) {
+    fetch('/static/commentary_map.json?v=' + Date.now())
+      .then(r => r.json())
+      .then(data => {
+        commentaryMap = data;
+        _initInner(bookSlug, chapter);
+      })
+      .catch(() => {});
+    return;
+  }
+  _initInner(bookSlug, chapter);
+}
+
+function _initInner(bookSlug, chapter) {
+  const block = document.getElementById('commentary-block');
+  const bar = document.getElementById('commentary-bar');
+  const bar2 = document.getElementById('commentary-bar2');
+  const bar2text = document.getElementById('commentary-bar2-text');
+  const intro = document.getElementById('commentary-intro');
+  if (!block) return;
+
+  // შესავალის ღილაკი — თუ map2-შია intro_video და თავი 1-ზეა
+  if (hasCommentary2(bookSlug) && commentaryMap2[bookSlug].intro_video && String(chapter) === '1' && intro) {
+    intro.style.display = 'flex';
+  } else {
+    if (intro) intro.style.display = 'none';
+  }
+
+  // პირველი ღილაკი — თავების მიხედვით (მხოლოდ მათეს თავებზე)
+  if (hasCommentary(bookSlug, chapter)) {
+    commentaryCurrentVideoId = commentaryMap[bookSlug][String(chapter)];
+    if (bar) bar.style.display = 'flex';
+  } else {
+    commentaryCurrentVideoId = null;
+    if (bar) bar.style.display = 'none';
+  }
+
+  // მეორე ღილაკი — ფლეილისთი
+  if (hasCommentary2(bookSlug) && bar2 && bar2text) {
+    const info = commentaryMap2[bookSlug];
+    commentaryCurrentPlaylist = info;
+    commentaryCurrentChapter2 = String(chapter);
+    bar2text.textContent = info.label || 'განმარტება2';
+    bar2.style.display = 'flex';
+  } else {
+    commentaryCurrentPlaylist = null;
+    commentaryCurrentChapter2 = null;
+    if (bar2) bar2.style.display = 'none';
+  }
+
+  // ბლოკის ჩვენება — თუ ერთი მაინც ჩანს
+  const showBlock = (intro && intro.style.display !== 'none') || (bar && bar.style.display !== 'none') || (bar2 && bar2.style.display !== 'none');
+  block.style.display = showBlock ? 'block' : 'none';
+}
+
+// === შესავალის ღილაკი ===
+function playCommentaryIntro() {
+  if (!commentaryCurrentPlaylist || !commentaryCurrentPlaylist.intro_video) return;
+  if (commentaryOpen) {
+    _closeCommentary();
+    return;
+  }
+  _closeCommentary2();
+  const box = document.getElementById('commentary-box');
+  const arrow = document.getElementById('commentary-arrow-intro');
+  if (!box) return;
+  const iframe = document.createElement('iframe');
+  iframe.src = 'https://www.youtube-nocookie.com/embed/' + commentaryCurrentPlaylist.intro_video + '?autoplay=1&rel=0&modestbranding=1';
+  iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+  iframe.allowFullscreen = true;
+  box.appendChild(iframe);
+  box.style.display = 'block';
+  if (arrow) arrow.style.transform = 'rotate(180deg)';
+  commentaryOpen = true;
+}
+
+// === პირველი ღილაკი (თავების მიხედვით) ===
+function toggleCommentary() {
+  if (commentaryOpen) {
+    _closeCommentary();
+  } else {
+    _closeCommentary2();
+    _openCommentary();
+  }
+}
+
+function _openCommentary() {
+  if (!commentaryCurrentVideoId) return;
+  const box = document.getElementById('commentary-box');
+  const arrow = document.getElementById('commentary-arrow');
+  if (!box) return;
+  const iframe = document.createElement('iframe');
+  iframe.src = 'https://www.youtube-nocookie.com/embed/' + commentaryCurrentVideoId + '?autoplay=1&rel=0&modestbranding=1';
+  iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+  iframe.allowFullscreen = true;
+  box.appendChild(iframe);
+  box.style.display = 'block';
+  if (arrow) arrow.style.transform = 'rotate(180deg)';
+  commentaryOpen = true;
+}
+
+function _closeCommentary() {
+  const box = document.getElementById('commentary-box');
+  const arrow = document.getElementById('commentary-arrow');
+  const arrowIntro = document.getElementById('commentary-arrow-intro');
+  if (box) {
+    box.style.display = 'none';
+    const oldIframe = box.querySelector('iframe');
+    if (oldIframe) oldIframe.remove();
+  }
+  if (arrow) arrow.style.transform = '';
+  if (arrowIntro) arrowIntro.style.transform = '';
+  commentaryOpen = false;
+}
+
+// === მეორე ღილაკი (ფლეილისთი) ===
+function toggleCommentary2() {
+  if (commentaryOpen2) {
+    _closeCommentary2();
+  } else {
+    _closeCommentary();
+    _openCommentary2();
+  }
+}
+
+function _openCommentary2() {
+  if (!commentaryCurrentPlaylist || !commentaryCurrentChapter2) return;
+  const chapters = commentaryCurrentPlaylist.chapters || {};
+  const videoId = chapters[commentaryCurrentChapter2];
+  if (!videoId) return;
+  const box = document.getElementById('commentary-box');
+  const arrow = document.getElementById('commentary-arrow2');
+  if (!box) return;
+  const iframe = document.createElement('iframe');
+  iframe.src = 'https://www.youtube-nocookie.com/embed/' + videoId + '?list=' + commentaryCurrentPlaylist.playlist + '&autoplay=1&rel=0&modestbranding=1';
+  iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+  iframe.allowFullscreen = true;
+  box.appendChild(iframe);
+  box.style.display = 'block';
+  if (arrow) arrow.style.transform = 'rotate(180deg)';
+  commentaryOpen2 = true;
+}
+
+function _closeCommentary2() {
+  const box = document.getElementById('commentary-box');
+  const arrow = document.getElementById('commentary-arrow2');
+  if (box) {
+    box.style.display = 'none';
+    const oldIframe = box.querySelector('iframe');
+    if (oldIframe) oldIframe.remove();
+  }
+  if (arrow) arrow.style.transform = '';
+  commentaryOpen2 = false;
+}

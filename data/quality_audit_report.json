@@ -1,0 +1,576 @@
+{
+  "bible_word_groups.json": {
+    "size_kb": 14709.3,
+    "total_entries": 177,
+    "problem_count": 0,
+    "stats": {
+      "total_strings": 254438
+    },
+    "sample_problems": []
+  },
+  "crossrefs_index.json": {
+    "size_kb": 19487.1,
+    "total_entries": 96,
+    "problem_count": 0,
+    "stats": {
+      "total_strings": 341293
+    },
+    "sample_problems": []
+  },
+  "crossrefs_merged.json": {
+    "size_kb": 85591.0,
+    "total_entries": 998,
+    "problem_count": 0,
+    "stats": {
+      "total_strings": 2728900
+    },
+    "sample_problems": []
+  },
+  "crossrefs_tsk.json": {
+    "size_kb": 70590.2,
+    "total_entries": 995,
+    "problem_count": 200,
+    "stats": {
+      "total_strings": 2942737,
+      "fully_english": 163580
+    },
+    "sample_problems": [
+      {
+        "path": "dabadeba:1:1[67].note",
+        "type": "fully_english",
+        "value": "thou hast made"
+      },
+      {
+        "path": "dabadeba:1:1[68].note",
+        "type": "fully_english",
+        "value": "all that"
+      },
+      {
+        "path": "dabadeba:1:1[69].note",
+        "type": "fully_english",
+        "value": "that made heaven"
+      },
+      {
+        "path": "dabadeba:1:1[70].note",
+        "type": "fully_english",
+        "value": "GENERAL"
+      },
+      {
+        "path": "dabadeba:1:1[71].note",
+        "type": "fully_english",
+        "value": "or ever"
+      },
+      {
+        "path": "dabadeba:1:1[72].note",
+        "type": "fully_english",
+        "value": "as yet"
+      },
+      {
+        "path": "dabadeba:1:1[73].note",
+        "type": "fully_english",
+        "value": "For all those"
+      },
+      {
+        "path": "dabadeba:1:1[74].note",
+        "type": "fully_english",
+        "value": "the beginning"
+      },
+      {
+        "path": "dabadeba:1:1[75].note",
+        "type": "fully_english",
+        "value": "GENERAL"
+      },
+      {
+        "path": "dabadeba:1:2[8].note",
+        "type": "fully_english",
+        "value": "in a wilderness"
+      },
+      {
+        "path": "dabadeba:1:2[9].note",
+        "type": "fully_english",
+        "value": "his spirit"
+      },
+      {
+        "path": "dabadeba:1:2[12].note",
+        "type": "fully_english",
+        "value": "GENERAL"
+      },
+      {
+        "path": "dabadeba:1:2[13].note",
+        "type": "fully_english",
+        "value": "for he"
+      },
+      {
+        "path": "dabadeba:1:2[14].note",
+        "type": "fully_english",
+        "value": "from the"
+      },
+      {
+        "path": "dabadeba:1:3[22].note",
+        "type": "fully_english",
+        "value": "upon whom"
+      },
+      {
+        "path": "dabadeba:1:3[23].note",
+        "type": "fully_english",
+        "value": "The day"
+      },
+      {
+        "path": "dabadeba:1:3[24].note",
+        "type": "fully_english",
+        "value": "GENERAL"
+      },
+      {
+        "path": "dabadeba:1:3[26].note",
+        "type": "fully_english",
+        "value": "Damsel"
+      },
+      {
+        "path": "dabadeba:1:3[27].note",
+        "type": "fully_english",
+        "value": "I will"
+      },
+      {
+        "path": "dabadeba:1:3[29].note",
+        "type": "fully_english",
+        "value": "he that"
+      }
+    ]
+  },
+  "label_fixes.json": {
+    "size_kb": 17.3,
+    "total_entries": 0,
+    "problem_count": 1,
+    "stats": {
+      "total_strings": 212,
+      "mixed_high_latin": 1,
+      "mixed_some_latin": 8
+    },
+    "sample_problems": [
+      {
+        "path": "_comment",
+        "type": "mixed_high_latin",
+        "value": "Label-ების ავტომატური კორექციის ლექსიკონი. სამი კატეგორია: term_replacements, preposition_fixes, phrase_fixes",
+        "latin_ratio": 0.44
+      }
+    ]
+  },
+  "lexicon.json": {
+    "size_kb": 88988.8,
+    "total_entries": 20556,
+    "problem_count": 1,
+    "stats": {
+      "total_strings": 553064,
+      "mixed_some_latin": 22,
+      "mixed_high_latin": 1
+    },
+    "sample_problems": [
+      {
+        "path": "book_stats[50].name",
+        "type": "mixed_high_latin",
+        "value": "III ეზრა",
+        "latin_ratio": 0.38
+      }
+    ]
+  },
+  "manual_ka.json": {
+    "size_kb": 68.6,
+    "total_entries": 0,
+    "problem_count": 0,
+    "stats": {
+      "total_strings": 1410
+    },
+    "sample_problems": []
+  },
+  "theology_terms_fix.json": {
+    "size_kb": 10.0,
+    "total_entries": 0,
+    "problem_count": 0,
+    "stats": {
+      "total_strings": 214
+    },
+    "sample_problems": []
+  },
+  "topic_labels_ka.json": {
+    "size_kb": 6600.1,
+    "total_entries": 0,
+    "problem_count": 29,
+    "stats": {
+      "total_strings": 42531,
+      "mixed_some_latin": 4505,
+      "case_error_dative_missing": 29
+    },
+    "sample_problems": [
+      {
+        "path": ".Heals the centurion’s servant Mt 8:5-13; Lu 7:1-10",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "კურნავს ასისთავი' მორჩილი მათე 8:5-13; ლუკა 7:1-10"
+      },
+      {
+        "path": ".Withdraws from Capernaum to Lake Galilee, where he heals many Mt 12:15-21; Mr 3:7-12",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "იხევს უკან კაპერნაუმიდან ტბას გალილეა, სადაც ის კურნავს ბევრი მათე 12:15-21; მარ 3:7-12"
+      },
+      {
+        "path": "Paul visits towns of Ac 14:6-21; 16:1,2",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "პავლე ეწვევა დაბები საქ 14:6-21; 16:1,2"
+      },
+      {
+        "path": ".Heals the daughter of the non-Jewish, Syrophenician woman near Mt 15:21-28; Mr 7:24-31",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "კურნავს ასული არას-იუდაური, სირო-ფინიკიელი დედაკაცი ახლოს მათე 15:21-28; მარ 7:24-31"
+      },
+      {
+        "path": ".Heals the paralyzed man Mt 9:1-8; Mr 2:1-12; Lu 5:17-26",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "კურნავს დამბლადარებული კაცი მათე 9:1-8; მარ 2:1-12; ლუკა 5:17-26"
+      },
+      {
+        "path": ".Heals multitudes from Judah, Jerusalem, and the coasts of Tyre and Sidon Lu 6:17-19",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "კურნავს ბრბოები იუდადან, იერუსალიმი, და ტიროსის სანაპიროები და სიდონი ლუკა 6:17-19"
+      },
+      {
+        "path": ".Journeys toward Jerusalem to attend the Passover; heals many who are diseased, and teaches the people (in Peraea) Mt 19:1,2; Mr 10:1; Lu 13:10-35",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "მოგზაურობები იერუსალიმის ესწრებოდეს პასექი; კურნავს ბევრი ვინ არიან ავადმყოფი, და ასწავლის ხალხი (პერეაში) მათე 19:1,2; მარ 10:1; ლუკა 13:10-35"
+      },
+      {
+        "path": "Visit saints with. — Ps 83:3; Mt 22:6.",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "ეწვევა წმიდანები თან. — ფსა 83:3; მათე 22:6."
+      },
+      {
+        "path": ".Heals Simon’s mother-in-law Mt 8:14,15; Mr 1:29-31; Lu 4:38,39",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "კურნავს სიმონი' სიდედრი მათე 8:14,15; მარ 1:29-31; ლუკა 4:38,39"
+      },
+      {
+        "path": "God will severely visit our neglect of — De 18:19; Ac 3:23; Heb 2:3.",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "ღმერთი იქნება მკაცრად ეწვევა ჩვენი უგულებელყავი — მრჟ 18:19; საქ 3:23; ებრ 2:3."
+      },
+      {
+        "path": "Visit those in. — Mt 25:36.",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "ეწვევა ისინი ში. — მათე 25:36."
+      },
+      {
+        "path": ".Jesus heals lepers in Lu 17:11-19",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "იესო კურნავს კეთროვნები ლუკა 17:11-19"
+      },
+      {
+        "path": "Paul visits the congregations in Ac 15:3; 21:2-4; 27:3",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "პავლე ეწვევა კრებულები საქ 15:3; 21:2-4; 27:3"
+      },
+      {
+        "path": ".Heals a leper (in Galilee) Mt 8:2-4; Mr 1:40-45; Lu 5:12-16",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "კურნავს კეთროვანი (გალილეაში) მათე 8:2-4; მარ 1:40-45; ლუკა 5:12-16"
+      },
+      {
+        "path": ".Heals diseases in Galilee Mt 4:23,24; Mr 1:34",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "კურნავს დაავადებები გალილეაში მათე 4:23,24; მარ 1:34"
+      },
+      {
+        "path": ".Heals a nobleman’s son of Capernaum (at Cana of Galilee) Joh 4:46-54",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "კურნავს დიდებული' კაპერნაუმის ძე (- გალილეას ქანა) იოა 4:46-54"
+      },
+      {
+        "path": ".Heals a paralyzed man (at Capernaum) Mt 9:2-8; Mr 2:1-12; Lu 5:17-26",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "კურნავს დამბლადარებული კაცი (კაპერნაუმთან) მათე 9:2-8; მარ 2:1-12; ლუკა 5:17-26"
+      },
+      {
+        "path": ".Heals a man having a withered hand (at Capernaum) Mt 12:9-14; Mr 3:1-6; Lu 6:6-11",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "კურნავს კაცი მქონე გამხმარი ხელი (კაპერნაუმთან) მათე 12:9-14; მარ 3:1-6; ლუკა 6:6-11"
+      },
+      {
+        "path": ".Heals Naaman the leper 2Ki 5:1-19; Lu 4:27",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "კურნავს ნაემანი კეთროვანი IV მეფ 5:1-19; ლუკა 4:27"
+      },
+      {
+        "path": ".Heals ten lepers (near the border between Samaria and Galilee) Lu 17:11-19",
+        "type": "case_error",
+        "subtype": "dative_missing",
+        "value": "კურნავს ათი კეთროვნები (საზღვარის ახლოს სამარიას და გალილეას შორის) ლუკა 17:11-19"
+      }
+    ]
+  },
+  "topic_names_ka.json": {
+    "size_kb": 213.1,
+    "total_entries": 0,
+    "problem_count": 0,
+    "stats": {
+      "total_strings": 5315
+    },
+    "sample_problems": []
+  },
+  "topical_index.json": {
+    "size_kb": 13146.6,
+    "total_entries": 5275,
+    "problem_count": 200,
+    "stats": {
+      "total_strings": 230534,
+      "fully_english": 9665
+    },
+    "sample_problems": [
+      {
+        "path": "topics[0].entries[0].label",
+        "type": "fully_english",
+        "value": "Lineage of Ex 6:16-20; Jos 21:4,10; 1Ch 6:2,3; 23:13"
+      },
+      {
+        "path": "topics[0].entries[1].label",
+        "type": "fully_english",
+        "value": "Marriage of Ex 6:23"
+      },
+      {
+        "path": "topics[0].entries[2].label",
+        "type": "fully_english",
+        "value": "Children of Ex 6:23,25; 1Ch 6:3; 24:1,2"
+      },
+      {
+        "path": "topics[0].entries[3].label",
+        "type": "fully_english",
+        "value": "Descendants of Ex 6:23,25; 1Ch 6:3-15,50-53; 24"
+      },
+      {
+        "path": "topics[0].entries[4].label",
+        "type": "fully_english",
+        "value": "Meets, Moses in the wilderness and is made spokesman for Moses Ex 4:14-16,27-31; 7:1,2"
+      },
+      {
+        "path": "topics[0].entries[5].label",
+        "type": "fully_english",
+        "value": "Inspiration of Ex 12:1; Le 10:8; 11:1; 13:1; 15:1; Nu 2:1; 4:1,17; 18:1; 19:1; 20:12"
+      },
+      {
+        "path": "topics[0].entries[6].label",
+        "type": "fully_english",
+        "value": "Commissioned as a deliverer of Israel Ex 6:13,26,27; Jos 24:5; 1Sa 12:8; Ps 77:20; 105:26; Mic 6:4"
+      },
+      {
+        "path": "topics[0].entries[7].label",
+        "type": "fully_english",
+        "value": "Summoned to Sinai with Nadab, Abihu, and seventy elders Ex 19:24; 24:1,9,10"
+      },
+      {
+        "path": "topics[0].entries[8].label",
+        "type": "fully_english",
+        "value": "Priesthood of Ex 28:1; 29:9; Nu 17; 18:1; Ps 99:6; Heb 5:4"
+      },
+      {
+        "path": "topics[0].entries[9].label",
+        "type": "fully_english",
+        "value": "Descendants of, ordained priests forever Ex 28:40-43; 29:9; Nu 3:3; 18:1; 1Ch 23:13; 2Ch 26:18"
+      },
+      {
+        "path": "topics[0].entries[10].label",
+        "type": "fully_english",
+        "value": "Judges Israel in the absence of Moses Ex 24:14"
+      },
+      {
+        "path": "topics[0].entries[11].label",
+        "type": "fully_english",
+        "value": "Makes the golden calf Ex 32; Ac 7:40; De 9:20,21"
+      },
+      {
+        "path": "topics[0].entries[12].label",
+        "type": "fully_english",
+        "value": "Rod of, buds Nu 17; Heb 9:4"
+      },
+      {
+        "path": "topics[0].entries[13].label",
+        "type": "fully_english",
+        "value": "Preserved Nu 17; Heb 9:4"
+      },
+      {
+        "path": "topics[0].entries[14].label",
+        "type": "fully_english",
+        "value": "Murmured against, by the people Ex 5:20,21; 16:2-10; Nu 14:2-5,10; 16:3-11,41; 20:2; Ps 106:16"
+      },
+      {
+        "path": "topics[0].entries[15].label",
+        "type": "fully_english",
+        "value": "Places pot of manna in the ark Ex 16:34"
+      },
+      {
+        "path": "topics[0].entries[16].label",
+        "type": "fully_english",
+        "value": "With Hur supports the hands of Moses during Battle Ex 17:12"
+      },
+      {
+        "path": "topics[0].entries[17].label",
+        "type": "fully_english",
+        "value": "His benedictions upon the people Le 9:22; Nu 6:23"
+      },
+      {
+        "path": "topics[0].entries[18].label",
+        "type": "fully_english",
+        "value": "Forbidden to mourn the death of his son, Nadab and Abihu Le 10:6,19"
+      },
+      {
+        "path": "topics[0].entries[19].label",
+        "type": "fully_english",
+        "value": "Intercedes for Miriam Nu 12:11,12"
+      }
+    ]
+  },
+  "typo_report.json": {
+    "size_kb": 1733.8,
+    "total_entries": 4153,
+    "problem_count": 0,
+    "stats": {
+      "total_strings": 16282,
+      "mixed_some_latin": 1759
+    },
+    "sample_problems": []
+  },
+  "ud_lemma_lexicon.json": {
+    "size_kb": 236.8,
+    "total_entries": 0,
+    "problem_count": 0,
+    "stats": {
+      "total_strings": 4272
+    },
+    "sample_problems": []
+  },
+  "verse_index.json": {
+    "size_kb": 27316.1,
+    "total_entries": 37562,
+    "problem_count": 200,
+    "stats": {
+      "total_strings": 10000,
+      "fully_english": 1720
+    },
+    "sample_problems": [
+      {
+        "path": "[280].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      },
+      {
+        "path": "[281].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      },
+      {
+        "path": "[282].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      },
+      {
+        "path": "[283].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      },
+      {
+        "path": "[284].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      },
+      {
+        "path": "[285].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      },
+      {
+        "path": "[286].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      },
+      {
+        "path": "[287].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      },
+      {
+        "path": "[288].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      },
+      {
+        "path": "[289].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      },
+      {
+        "path": "[290].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      },
+      {
+        "path": "[291].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      },
+      {
+        "path": "[292].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      },
+      {
+        "path": "[293].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      },
+      {
+        "path": "[294].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      },
+      {
+        "path": "[295].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      },
+      {
+        "path": "[296].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      },
+      {
+        "path": "[297].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      },
+      {
+        "path": "[298].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      },
+      {
+        "path": "[299].book_slug",
+        "type": "fully_english",
+        "value": "1makabelta"
+      }
+    ]
+  }
+}
