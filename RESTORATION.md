@@ -37,19 +37,24 @@ git clone https://github.com/TbilX/georgian-bible.git .
 
 ```bash
 cd /opt/bible_app
-wget https://github.com/TbilX/georgian-bible/releases/download/v1.0-data/bible-data.tar.gz
+wget https://github.com/TbilX/georgian-bible/releases/download/v1.1-data/bible-data.tar.gz
 tar xzf bible-data.tar.gz
 rm bible-data.tar.gz
 ```
 
 არქივი შეიცავს:
 - verses.json - ბიბლიის ტექსტი
-- verse_index.json - მუხლების ინდექსი
+- verse_index.json - მუხლების ინდექსი (ბერძნული ორიგინალით, grc ველი)
 - lexicon.json - ლექსიკონი
 - embeddings_labse.npz - AI ძიების მოდელი
+- embeddings.npz - მეორე embeddings მოდელი
 - bm25_index.pkl - BM25 ინდექსი
-- crossrefs_merged.json - ჯვარედინი მითითებები
+- crossrefs_index.json / crossrefs_merged.json / crossrefs_tsk.json - ჯვარედინი მითითებები
+- bible_word_groups.json - სიტყვის ჯგუფები
 - topical_index.json - თემატური ენციკლოპედია
+- topic_names_ka.json / topic_labels_ka.json - თემების ქართული თარგმანი
+- crossref_topics_ka.json - ჯვარედინი თემების თარგმანი
+- root_translations_ka.json - ძირების თარგმანები
 
 ## ნაბიჯი 4: Python გარემო
 
