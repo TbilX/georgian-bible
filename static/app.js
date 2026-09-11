@@ -110,8 +110,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   // წიგნების ჩატვირთვა
   await loadBooks();
   await loadStats();
-  if (!BOOKS) return; // API ხელმისაწვდომი არ არის - გავაგრძელოთ მხოლოდ ბაზისური ფუნქციონალი
   setupEventListeners();
+  if (!BOOKS) return; // API ხელმისაწვდომი არ არის - გამოტოვე BOOKS-ზე დამოკიდებული ფუნქციები
   populateBookFilter();
   renderHomeBookmarks();
   restoreColorLabels();
