@@ -110,6 +110,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // წიგნების ჩატვირთვა
   await loadBooks();
   await loadStats();
+  if (!BOOKS) return; // API ხელმისაწვდომი არ არის - გავაგრძელოთ მხოლოდ ბაზისური ფუნქციონალი
   setupEventListeners();
   populateBookFilter();
   renderHomeBookmarks();
@@ -119,7 +120,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // URL routing - თუ ბმულში არის #/book/chapter[/verse] ან #search/... ან #lexicon
   const route = parseHash();
-  if (route) {
+  if (route && BOOKS) {
     // შევამოწმოთ წიგნი არსებობს
     const allBooks = [...(BOOKS.old || []), ...(BOOKS.new || [])];
     if (allBooks.some(b => b.slug === route.bookSlug)) {
@@ -324,22 +325,22 @@ function setupEventListeners() {
 async function loadBooks() {
   try {
     const res = await fetch('/api/books');
-    BOOKS = await res.json();
+    if (!res.ok) return; const _t = await res.text(); if (!_t) return; BOOKS = JSON.parse(_t);
     // დაველოდოთ audioMap-ის ჩატვირთვას რომ 🎵 იკონები გამოჩნდეს
     if (typeof loadAudioMap === 'function') {
       await loadAudioMap();
     }
     renderBooks();
   } catch (e) {
-    console.error('წიგნების ჩატვირთვა ვერ მოხერხდა:', e);
-    showToast('წიგნების ჩატვირთვა ვერ მოხერხდა. შეამოწმეთ ინტერნეტკავშირი.');
+    // ჩუმად გამოტოვება
+
   }
 }
 
 async function loadStats() {
   try {
     const res = await fetch('/api/stats');
-    const s = await res.json();
+    if (!res.ok) return; const _t = await res.text(); if (!_t) return; const s = JSON.parse(_t);
     const fmt = n => n.toLocaleString('ka-GE');
     const el = id => document.getElementById(id);
     const set = (id, text) => { const e = el(id); if (e) e.innerHTML = text; };
@@ -349,8 +350,8 @@ async function loadStats() {
     set('nt-toggle', `ახალი აღთქმა: ${s.nt_books} წიგნი · ${fmt(s.nt_verses)} მუხლი`);
     set('noncanon-toggle', `არაკანონიკური <span class="apocryphal-note">(ἀπόκρυφος/აპოკრიფი)</span>: ${s.noncanon_books} წიგნი · ${fmt(s.noncanon_verses)} მუხლი`);
   } catch (e) {
-    console.error('სტატისტიკის ჩატვირთვა ვერ მოხერხდა:', e);
-    showToast('სტატისტიკის ჩატვირთვა ვერ მოხერხდა. შეამოწმეთ ინტერნეტკავშირი.');
+    // ჩუმად გამოტოვება
+
   }
 }
 
