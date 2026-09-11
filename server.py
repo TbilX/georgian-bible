@@ -686,17 +686,15 @@ def share_chapter(book_slug, chapter):
 <script type="application/ld+json">
 {json_ld}
 </script>
-<script>window.location.replace("/#/{book_slug}/{chapter}");</script>
+<script>setTimeout(function(){{window.location.replace("/#/{book_slug}/{chapter}");}},100);</script>
 </head>
 <body style="margin:0;padding:40px;font-family:Georgia,serif;background:#faf8f3;color:#1a1a1a;max-width:800px;margin:0 auto;">
 <h1 style="color:#4a3828;font-size:1.5em;text-align:center;">{book_name} {chapter}</h1>
-<noscript>
 <div style="margin:20px 0;line-height:1.8;font-size:1.1em;">
 {verses_html}
 </div>
-</noscript>
 {nav_html}
-<p style="color:#999;font-size:0.85em;text-align:center;">გადამისამართება ინტერაქტიულ ვერსიაზე...</p>
+<noscript><p style="color:#999;font-size:0.85em;text-align:center;">ჩართეთ JavaScript ინტერაქტიული ვერსიისთვის.</p></noscript>
 </body>
 </html>"""
     resp = make_response(page_html)
@@ -783,9 +781,7 @@ def share_verse(book_slug, chapter, verse):
 </script>
 
 <!-- კლიენტზე გადამისამართება hash routing-ზე -->
-<script>
-  window.location.replace("/#/{book_slug}/{chapter}/{verse}");
-</script>
+<script>setTimeout(function(){{window.location.replace("/#/{book_slug}/{chapter}/{verse}");}},100);</script>
 </head>
 <body style="margin:0;padding:40px;text-align:center;font-family:Georgia,serif;background:#faf8f3;color:#1a1a1a;">
   <p style="font-size:1.2em;color:#4a3828;font-weight:bold;">{ref}</p>
@@ -903,18 +899,16 @@ def share_topic(topic_slug):
 <script type="application/ld+json">
 {json_ld}
 </script>
-<script>window.location.replace("/#topical/{topic_slug}");</script>
+<script>setTimeout(function(){{window.location.replace("/#topical/{topic_slug}");}},100);</script>
 </head>
 <body style="margin:0;padding:40px;font-family:Georgia,serif;background:#faf8f3;color:#1a1a1a;max-width:800px;margin:0 auto;">
 <h1 style="color:#4a3828;font-size:1.5em;">{html.escape(topic_name)}</h1>
 <p style="color:#999;font-size:0.85em;">{source_label} · {verse_count} მუხლი</p>
-<noscript>
 <div style="margin:20px 0;line-height:1.8;font-size:1.05em;">
 {entries_html}
 {see_also_html}
 </div>
-</noscript>
-<p style="color:#999;font-size:0.85em;text-align:center;">გადამისამართება ინტერაქტიულ ვერსიაზე...</p>
+<noscript><p style="color:#999;font-size:0.85em;text-align:center;">ჩართეთ JavaScript ინტერაქტიული ვერსიისთვის.</p></noscript>
 </body>
 </html>"""
     resp = make_response(page_html)
