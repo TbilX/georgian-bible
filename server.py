@@ -967,6 +967,10 @@ def robots():
     content = f"""User-agent: *
 Allow: /
 Allow: /b/
+Allow: /api/books
+Allow: /api/stats
+Allow: /api/chapter/
+Allow: /api/verse/
 Disallow: /api/
 Disallow: /static/sw.js
 
