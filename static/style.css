@@ -2742,9 +2742,9 @@ mark {
     min-width: 0;
   }
   #search-btn {
-    width: 44px;
-    height: 44px;
-    font-size: 16px;
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
     flex-shrink: 0;
   }
   .icon-btn { width: var(--touch-min); height: var(--touch-min); font-size: 18px; }
