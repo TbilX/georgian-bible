@@ -100,7 +100,7 @@ body::before {
 body::after {
   content: '';
   position: fixed;
-  top: 0; left: 0; left: 50%; transform: translateX(-50%); bottom: 0;
+  top: 0; left: 0; right: 0; bottom: 0;
   background: linear-gradient(135deg,
     rgba(200,225,240,0.85) 0%,
     rgba(215,235,248,0.88) 50%,
@@ -164,7 +164,7 @@ body::after {
   display: none;
   position: absolute;
   top: calc(100% + 6px);
-  left: 50%; transform: translateX(-50%);
+  right: 0;
   min-width: 220px;
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -363,7 +363,7 @@ body.sidebar-collapsed .topbar-center {
   content: '';
   position: absolute;
   top: 0;
-  left: 50%; transform: translateX(-50%);
+  right: 0;
   width: 2px;
   height: 100%;
   background: var(--accent);
@@ -1037,7 +1037,7 @@ body.sidebar-collapsed .topbar-center {
 /* === სიის overlay (ფერი/კომენტარი/სანიშნე) === */
 .list-overlay {
   position: fixed;
-  top: 0; left: 0; left: 50%; transform: translateX(-50%); bottom: 0;
+  top: 0; left: 0; right: 0; bottom: 0;
   background: rgba(0,0,0,0.5);
   z-index: var(--z-fullscreen);
   display: flex;
@@ -2034,7 +2034,7 @@ mark {
 /* === პოპაპი === */
 .verse-popup {
   position: fixed;
-  top: 0; left: 0; left: 50%; transform: translateX(-50%); bottom: 0;
+  top: 0; left: 0; right: 0; bottom: 0;
   background: rgba(0,0,0,0.5);
   z-index: var(--z-modal);
   display: flex;
@@ -2293,7 +2293,7 @@ mark {
 /* === სანიშნეები === */
 .bookmarks-panel {
   position: fixed;
-  top: 60px; left: 50%; transform: translateX(-50%);
+  top: 60px; right: 0;
   width: 350px;
   height: calc(100vh - 60px);
   background: var(--bg-card);
@@ -3650,7 +3650,7 @@ mark {
   position: absolute;
   top: 100%;
   left: 0;
-  left: 50%; transform: translateX(-50%);
+  right: 0;
   z-index: var(--z-dropdown);
   margin-top: 4px;
   max-height: 270px;
@@ -3835,7 +3835,7 @@ mark {
 /* === აუდიო Popup Modal === */
 .audio-popup-overlay {
   position: fixed;
-  top: 0; left: 0; left: 50%; transform: translateX(-50%); bottom: 0;
+  top: 0; left: 0; right: 0; bottom: 0;
   background: rgba(0,0,0,0.7);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -4826,7 +4826,7 @@ mark {
 .word-panel {
   position: fixed;
   top: 0;
-  left: 50%; transform: translateX(-50%);
+  right: 0;
   width: 380px;
   height: 100vh;
   background: var(--bg-card, #faf8f3);
@@ -4842,8 +4842,8 @@ mark {
 }
 
 @keyframes wordPanelSlideIn {
-  from { transform: translateX(-50%) translateY(-20px); opacity: 0; }
-  to { transform: translateX(-50%) translateY(0); opacity: 1; }
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
 }
 
 .word-panel-header {
@@ -5629,7 +5629,7 @@ mark {
 .study-pad-panel {
   position: fixed;
   top: 0;
-  left: 50%; transform: translateX(-50%);
+  right: 0;
   width: 420px;
   max-width: 50vw;
   min-width: 340px;
@@ -6066,7 +6066,7 @@ mark {
     top: auto;
     bottom: 0;
     left: 0;
-    left: 50%; transform: translateX(-50%);
+    right: 0;
     width: 100%;
     max-width: 100vw;
     min-width: 0;
@@ -6251,7 +6251,7 @@ mark {
 .topical-panel {
   position: fixed;
   top: 0;
-  left: 50%; transform: translateX(-50%);
+  right: 0;
   width: 480px;
   height: 100vh;
   background: var(--bg-card, #faf8f3);
