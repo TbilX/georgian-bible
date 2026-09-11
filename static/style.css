@@ -154,6 +154,9 @@ body::after {
   align-items: center;
   justify-content: center;
   letter-spacing: 1px;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
 }
 
 /* === მობილურის მენიუ (☰ დროპდაუნი) === */
