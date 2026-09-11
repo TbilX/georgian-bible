@@ -988,12 +988,16 @@ function renderChapter() {
   const showOld = document.getElementById('show-old').checked;
   const showNew = document.getElementById('show-new').checked;
   const parallel = document.getElementById('parallel-view').checked;
+  const grcBox = document.getElementById('show-grc');
+  const showGrc = grcBox ? grcBox.checked : false;
+  localStorage.setItem('bible_show_grc', showGrc ? '1' : '0');
 
   if (!parallel || !showOld || !showNew) {
     container.classList.add('single');
   } else {
     container.classList.remove('single');
   }
+  container.classList.toggle('three', !!(parallel && showOld && showNew && showGrc));
 
   container.innerHTML = '';
   currentVerses.forEach(v => {
@@ -1045,6 +1049,15 @@ function renderChapter() {
       row.appendChild(oldCell);
     }
 
+    if (showGrc && v.grc) {
+      const grcCell = document.createElement('div');
+      grcCell.className = 'verse-cell';
+      grcCell.dataset.verse = v.verse;
+      grcCell.innerHTML = `<span class="verse-num">${v.verse}</span><span class="verse-text grc">${escapeHtml(v.grc)}</span>`;
+      grcCell.onclick = (e) => handleVerseClick(e, v);
+      row.appendChild(grcCell);
+    }
+
     container.appendChild(row);
   });
 
@@ -1088,6 +1101,9 @@ function initTranslationMode() {
   } else if (window.innerWidth <= 900) {
     setTranslationMode('new', true);
   }
+  const grcSaved = localStorage.getItem('bible_show_grc');
+  const grcChk = document.getElementById('show-grc');
+  if (grcChk && grcSaved === '1') grcChk.checked = true;
 }
 
 // === ნავიგაცია ===

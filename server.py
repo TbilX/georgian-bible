@@ -567,6 +567,7 @@ def get_verse_fast(book_slug, chapter, verse):
         "verse": v["verse"],
         "new": v["new"],
         "old": v["old"],
+        "grc": v.get("grc", ""),
         "testament": v["testament"],
     }
 
@@ -1055,6 +1056,7 @@ def api_chapter(book_slug, chapter):
                 "verse": v["verse"],
                 "new": v["new"],
                 "old": v["old"],
+                "grc": v.get("grc", ""),
             })
     verses.sort(key=lambda x: x["verse"])
     book_name = next((b["name"] for b in BOOKS["old"] + BOOKS["new"] if b["slug"] == book_slug), book_slug)

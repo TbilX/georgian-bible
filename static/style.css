@@ -1433,6 +1433,8 @@ body.sidebar-collapsed .topbar-center {
   border-bottom: 1px solid var(--border);
 }
 .verses-container.single .verse-row { grid-template-columns: 1fr; }
+.verses-container.three .verse-row { grid-template-columns: 1fr 1fr 1fr; }
+.verse-text.grc { font-family: 'Noto Sans', 'SBL Greek', 'Gentium Plus', Georgia, serif; direction: ltr; unicode-bidi: isolate; }
 
 .verse-cell {
   display: flex;
