@@ -572,6 +572,20 @@ def get_verse_fast(book_slug, chapter, verse):
     }
 
 
+# === SEO helper ===
+_BOT_AGENTS = (
+    "googlebot", "bingbot", "duckduckbot", "yandexbot", "baiduspider",
+    "applebot", "slurp", "facebookexternalhit", "twitterbot",
+    "linkedinbot", "whatsapp", "telegrambot", "discordbot",
+    "slackbot", "embedly", "pinterest", "vkshare", "w3c_validator",
+)
+
+def is_crawler():
+    """აბრუნებს True-ს თუ მოთხოვნა crawler-ისგანაა."""
+    ua = (request.headers.get("User-Agent") or "").lower()
+    return any(b in ua for b in _BOT_AGENTS)
+
+
 # === API endpoints ===
 @app.route("/")
 def index():
@@ -596,6 +610,8 @@ def share_chapter(book_slug, chapter):
     base_url = "https://web.net.ge"
     canonical = f"{base_url}/b/{book_slug}/{chapter}"
     image_url = f"{base_url}/static/icon-512.png"
+    # bot-ებისთვის redirect არ ვასრულებთ - SSR კონტენტი უნდა დაინდექსირდეს
+    redirect_script = "" if is_crawler() else f'<script>setTimeout(function(){{window.location.replace("/#/{book_slug}/{chapter}");}},100);</script>'
 
     # მუხლების მოძიება server-side (Googlebot-ისთვის ხილული)
     verses = []
@@ -687,7 +703,7 @@ def share_chapter(book_slug, chapter):
 <script type="application/ld+json">
 {json_ld}
 </script>
-<script>setTimeout(function(){{window.location.replace("/#/{book_slug}/{chapter}");}},100);</script>
+{redirect_script}
 </head>
 <body style="margin:0;padding:40px;font-family:Georgia,serif;background:#faf8f3;color:#1a1a1a;max-width:800px;margin:0 auto;">
 <h1 style="color:#4a3828;font-size:1.5em;text-align:center;">{book_name} {chapter}</h1>
@@ -730,6 +746,7 @@ def share_verse(book_slug, chapter, verse):
     # აბსოლუტური URL-ები SEO-სთვის
     base_url = "https://web.net.ge"
     canonical = f"{base_url}/b/{book_slug}/{chapter}/{verse}"
+    redirect_script = "" if is_crawler() else f'<script>setTimeout(function(){{window.location.replace("/#/{book_slug}/{chapter}/{verse}");}},100);</script>'
     image_url = f"{base_url}/static/icon-512.png"
     target_url = f"{base_url}/#/{book_slug}/{chapter}/{verse}"
 
@@ -782,7 +799,7 @@ def share_verse(book_slug, chapter, verse):
 </script>
 
 <!-- კლიენტზე გადამისამართება hash routing-ზე -->
-<script>setTimeout(function(){{window.location.replace("/#/{book_slug}/{chapter}/{verse}");}},100);</script>
+{redirect_script}
 </head>
 <body style="margin:0;padding:40px;text-align:center;font-family:Georgia,serif;background:#faf8f3;color:#1a1a1a;">
   <p style="font-size:1.2em;color:#4a3828;font-weight:bold;">{ref}</p>
@@ -816,6 +833,7 @@ def share_topic(topic_slug):
 
     base_url = "https://web.net.ge"
     canonical = f"{base_url}/t/{topic_slug}"
+    redirect_script = "" if is_crawler() else f'<script>setTimeout(function(){{window.location.replace("/#topical/{topic_slug}");}},100);</script>'
     image_url = f"{base_url}/static/icon-512.png"
     og_title = f"{topic_name} · წმიდა წერილი"
     og_desc = f"{topic_name} - ბიბლიური თემა, {verse_count} მუხლი. ქართული ბიბლია ორ თარგმანში."
@@ -900,7 +918,7 @@ def share_topic(topic_slug):
 <script type="application/ld+json">
 {json_ld}
 </script>
-<script>setTimeout(function(){{window.location.replace("/#topical/{topic_slug}");}},100);</script>
+{redirect_script}
 </head>
 <body style="margin:0;padding:40px;font-family:Georgia,serif;background:#faf8f3;color:#1a1a1a;max-width:800px;margin:0 auto;">
 <h1 style="color:#4a3828;font-size:1.5em;">{html.escape(topic_name)}</h1>
