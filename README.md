@@ -159,6 +159,15 @@ python3 server.py
 
 ბრაუზერში: http://localhost:5000
 
+
+---
+
+კოლოსელთა 3:10-11
+"შეიმოსეთ ახალი, რომელიც განახლდება შემეცნებით მისი შემოქმედის ხატად,
+სადაც არ არის ბერძენი და იუდეველი, წინადაცვეთილობა თუ წინადაუცვეთელობა, ბარბაროსი, სკვითი, მონა თუ თავისუფალი, არამედ ქრისტეა ყველაფერი და ყველაფერში."
+
+ავტორის მინაწერი: ამ საქმის ავტორი არც პროგრამისტია, არც კოდერი, არც დეველოპერი და არც ინჟინერი. ტექნოლოგია მხოლოდ ინსტრუმენტია - ქრისტე კი ყველაფერია და ყველაფერშია.
+
 ---
 
 # Read the Bible - full description
@@ -321,4 +330,12 @@ python3 server.py
 ```
 
 In the browser: http://localhost:5000
+
+
+---
+
+Colossians 3:10-11
+"and have put on the new man who is renewed in knowledge according to the image of Him who created him, where there is neither Greek nor Jew, circumcised nor uncircumcised, barbarian, Scythian, slave nor free, but Christ is all and in all."
+
+Author's note: The author of this work is neither a programmer, nor a coder, nor a developer, nor an engineer. Technology is only an instrument - but Christ is all and in all.
 
