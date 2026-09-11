@@ -2666,7 +2666,7 @@ function goHome() {
 function openBeginner() {
   const modal = document.getElementById('beginner-modal');
   if (modal) {
-    modal.style.display = 'block';
+    modal.style.display = 'flex';
     moveFocusInto(modal);
     enableFocusTrap(modal);
   }
