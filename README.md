@@ -325,7 +325,7 @@ Total **3,444 lines** of code.
 ## Running
 
 ```bash
-cd "ბიბლია იკითხე"
+cd "ბიბლია იკითხე სულით"
 python3 server.py
 ```
 
